@@ -1,0 +1,34 @@
+#root{
+    .landing-area{        
+        height: 100%;
+        .row{
+            height: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+        .main-text{
+            font-size: 3em;
+            font-weight: thin;
+        }
+        .secondary-text{
+            font-size: 1.5em;
+            font-weight: thin;
+        }
+        p{
+            text-align: justify;
+        }
+        .scroll-icon{
+            font-weight: 300;
+            bottom: 4%;
+            left: 0;
+            right: 0;
+            margin: auto;
+            font-size: 3em;
+
+        }
+    }
+    .gray-back{
+        background-color: #f8f9fa;
+    }
+}

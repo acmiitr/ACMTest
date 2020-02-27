@@ -1,25 +1,27 @@
 import React from 'react';
-import logo from './logo.svg';
+import {Switch, Route} from 'react-router-dom'
+import {HomeComponent} from './components/HomeComponent';
+import {AboutComponent} from './components/AboutComponent';
+import {EventComponent} from './components/EventComponent';
+import {BlogComponent} from './components/BlogComponent';
+import {NavComponent} from './components/NavComponent';
+import {FooterComponent} from './components/FooterComponent';
+import { TeamComponent } from './components/TeamComponent';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <NavComponent/>
+      <Switch>
+        <Route exact path="/" component={HomeComponent} />
+        <Route exact path="/about" component={AboutComponent} />
+        <Route exact path="/event" component={EventComponent} />
+        <Route exact path="/blogs" component={BlogComponent} />
+        <Route exact path="/team" component={TeamComponent} />
+      </Switch>
+      <FooterComponent />
+    </React.Fragment>
   );
 }
 

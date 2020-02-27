@@ -1,0 +1,34 @@
+#root{
+    .hero-area{
+        // font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        display: flex;
+        align-items: center;
+        // justify-content: center;
+        height: 100%;
+        background-color: #00a2ed;
+        .emoji{
+            font-size: 6em;
+            font-weight: thin;
+        }
+        .intro-text{
+            font-size: 1.1em;
+            font-weight: thin;
+            text-align: justify;
+        }
+        .bsod-qr{
+            .qr-text{
+                display: flex;
+                span{
+                    font-size: 1em;
+                    line-height: 1.2em;
+                    a{
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+                
+            }
+        }
+    }
+}
