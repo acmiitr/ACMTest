@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Rsingh2805/ACMTest/static/css/main.d9f861c0.chunk.css",
-    "main.js": "/Rsingh2805/ACMTest/static/js/main.c0f31c7f.chunk.js",
-    "main.js.map": "/Rsingh2805/ACMTest/static/js/main.c0f31c7f.chunk.js.map",
+    "main.js": "/Rsingh2805/ACMTest/static/js/main.25e29822.chunk.js",
+    "main.js.map": "/Rsingh2805/ACMTest/static/js/main.25e29822.chunk.js.map",
     "runtime-main.js": "/Rsingh2805/ACMTest/static/js/runtime-main.07b448a2.js",
     "runtime-main.js.map": "/Rsingh2805/ACMTest/static/js/runtime-main.07b448a2.js.map",
     "static/css/2.56df4b64.chunk.css": "/Rsingh2805/ACMTest/static/css/2.56df4b64.chunk.css",
-    "static/js/2.9e083448.chunk.js": "/Rsingh2805/ACMTest/static/js/2.9e083448.chunk.js",
-    "static/js/2.9e083448.chunk.js.map": "/Rsingh2805/ACMTest/static/js/2.9e083448.chunk.js.map",
+    "static/js/2.4822a127.chunk.js": "/Rsingh2805/ACMTest/static/js/2.4822a127.chunk.js",
+    "static/js/2.4822a127.chunk.js.map": "/Rsingh2805/ACMTest/static/js/2.4822a127.chunk.js.map",
     "index.html": "/Rsingh2805/ACMTest/index.html",
-    "precache-manifest.399f69a788a22ba5115b2d0a53f70baa.js": "/Rsingh2805/ACMTest/precache-manifest.399f69a788a22ba5115b2d0a53f70baa.js",
+    "precache-manifest.4ca6fa1b1d6d7edaa5ccd5a9d8412caf.js": "/Rsingh2805/ACMTest/precache-manifest.4ca6fa1b1d6d7edaa5ccd5a9d8412caf.js",
     "service-worker.js": "/Rsingh2805/ACMTest/service-worker.js",
     "static/css/2.56df4b64.chunk.css.map": "/Rsingh2805/ACMTest/static/css/2.56df4b64.chunk.css.map",
     "static/css/main.d9f861c0.chunk.css.map": "/Rsingh2805/ACMTest/static/css/main.d9f861c0.chunk.css.map",
-    "static/js/2.9e083448.chunk.js.LICENSE.txt": "/Rsingh2805/ACMTest/static/js/2.9e083448.chunk.js.LICENSE.txt",
+    "static/js/2.4822a127.chunk.js.LICENSE.txt": "/Rsingh2805/ACMTest/static/js/2.4822a127.chunk.js.LICENSE.txt",
     "static/media/ACM.png": "/Rsingh2805/ACMTest/static/media/ACM.c68aba0c.png",
     "static/media/aarush.jpeg": "/Rsingh2805/ACMTest/static/media/aarush.df7ae46e.jpeg",
     "static/media/compe.jpg": "/Rsingh2805/ACMTest/static/media/compe.e446edff.jpg",
@@ -33,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.07b448a2.js",
     "static/css/2.56df4b64.chunk.css",
-    "static/js/2.9e083448.chunk.js",
+    "static/js/2.4822a127.chunk.js",
     "static/css/main.d9f861c0.chunk.css",
-    "static/js/main.c0f31c7f.chunk.js"
+    "static/js/main.25e29822.chunk.js"
   ]
 }
