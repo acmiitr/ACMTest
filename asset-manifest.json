@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ACMTest/static/css/main.d9f861c0.chunk.css",
-    "main.js": "/ACMTest/static/js/main.1dc218b9.chunk.js",
-    "main.js.map": "/ACMTest/static/js/main.1dc218b9.chunk.js.map",
+    "main.css": "/ACMTest/static/css/main.6ca48933.chunk.css",
+    "main.js": "/ACMTest/static/js/main.adbaee90.chunk.js",
+    "main.js.map": "/ACMTest/static/js/main.adbaee90.chunk.js.map",
     "runtime-main.js": "/ACMTest/static/js/runtime-main.b261adc2.js",
     "runtime-main.js.map": "/ACMTest/static/js/runtime-main.b261adc2.js.map",
     "static/css/2.48be9feb.chunk.css": "/ACMTest/static/css/2.48be9feb.chunk.css",
-    "static/js/2.4822a127.chunk.js": "/ACMTest/static/js/2.4822a127.chunk.js",
-    "static/js/2.4822a127.chunk.js.map": "/ACMTest/static/js/2.4822a127.chunk.js.map",
+    "static/js/2.9c9be1b8.chunk.js": "/ACMTest/static/js/2.9c9be1b8.chunk.js",
+    "static/js/2.9c9be1b8.chunk.js.map": "/ACMTest/static/js/2.9c9be1b8.chunk.js.map",
     "index.html": "/ACMTest/index.html",
-    "precache-manifest.537bf0eba4fb275a7640f0b7f0591d0a.js": "/ACMTest/precache-manifest.537bf0eba4fb275a7640f0b7f0591d0a.js",
+    "precache-manifest.aed32572d5fa5a3f5780d24776673bde.js": "/ACMTest/precache-manifest.aed32572d5fa5a3f5780d24776673bde.js",
     "service-worker.js": "/ACMTest/service-worker.js",
     "static/css/2.48be9feb.chunk.css.map": "/ACMTest/static/css/2.48be9feb.chunk.css.map",
-    "static/css/main.d9f861c0.chunk.css.map": "/ACMTest/static/css/main.d9f861c0.chunk.css.map",
-    "static/js/2.4822a127.chunk.js.LICENSE.txt": "/ACMTest/static/js/2.4822a127.chunk.js.LICENSE.txt",
+    "static/css/main.6ca48933.chunk.css.map": "/ACMTest/static/css/main.6ca48933.chunk.css.map",
+    "static/js/2.9c9be1b8.chunk.js.LICENSE.txt": "/ACMTest/static/js/2.9c9be1b8.chunk.js.LICENSE.txt",
     "static/media/ACM.png": "/ACMTest/static/media/ACM.c68aba0c.png",
     "static/media/aarush.jpeg": "/ACMTest/static/media/aarush.df7ae46e.jpeg",
     "static/media/compe.jpg": "/ACMTest/static/media/compe.e446edff.jpg",
@@ -21,8 +21,6 @@
     "static/media/event1.jpg": "/ACMTest/static/media/event1.40021edc.jpg",
     "static/media/event2.jpg": "/ACMTest/static/media/event2.f5a7d0b1.jpg",
     "static/media/event3.jpg": "/ACMTest/static/media/event3.cae78d4b.jpg",
-    "static/media/game-blog1.jpeg": "/ACMTest/static/media/game-blog1.2a8eb838.jpeg",
-    "static/media/game.jpeg": "/ACMTest/static/media/game.811975b7.jpeg",
     "static/media/game.png": "/ACMTest/static/media/game.bccbd604.png",
     "static/media/game1.jpg": "/ACMTest/static/media/game1.35ebb172.jpg",
     "static/media/index.css": "/ACMTest/static/media/montserrat-latin-900italic.a8ec4957.woff",
@@ -33,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.b261adc2.js",
     "static/css/2.48be9feb.chunk.css",
-    "static/js/2.4822a127.chunk.js",
-    "static/css/main.d9f861c0.chunk.css",
-    "static/js/main.1dc218b9.chunk.js"
+    "static/js/2.9c9be1b8.chunk.js",
+    "static/css/main.6ca48933.chunk.css",
+    "static/js/main.adbaee90.chunk.js"
   ]
 }
