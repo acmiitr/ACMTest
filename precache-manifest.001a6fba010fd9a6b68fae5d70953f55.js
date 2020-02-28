@@ -1,47 +1,71 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ba9f54ade9a9a3caf68fba4e3bb7fd84",
+    "revision": "ba30e56c0e652c75de104a40ed856114",
     "url": "/ACMTest/index.html"
   },
   {
-    "revision": "ecd6ac45f2635d1ec28f",
+    "revision": "ec21589939691693f6eb",
     "url": "/ACMTest/static/css/2.48be9feb.chunk.css"
   },
   {
-    "revision": "ed0fa61589098878e228",
-    "url": "/ACMTest/static/css/main.2ef7d1a2.chunk.css"
+    "revision": "eb63295551a90fd6bbdc",
+    "url": "/ACMTest/static/css/main.6e00c916.chunk.css"
   },
   {
-    "revision": "ecd6ac45f2635d1ec28f",
-    "url": "/ACMTest/static/js/2.9c9be1b8.chunk.js"
+    "revision": "ec21589939691693f6eb",
+    "url": "/ACMTest/static/js/2.8d31cb80.chunk.js"
   },
   {
-    "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/ACMTest/static/js/2.9c9be1b8.chunk.js.LICENSE.txt"
+    "revision": "49c45e15b22906ea61e3b3085d227f58",
+    "url": "/ACMTest/static/js/2.8d31cb80.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ed0fa61589098878e228",
-    "url": "/ACMTest/static/js/main.d2dfe377.chunk.js"
+    "revision": "eb63295551a90fd6bbdc",
+    "url": "/ACMTest/static/js/main.089daaa2.chunk.js"
   },
   {
     "revision": "4cc1a5d494756721fd7a",
     "url": "/ACMTest/static/js/runtime-main.b261adc2.js"
   },
   {
+    "revision": "dd0ce8bd0b1c9cdac95a3b7c283a5453",
+    "url": "/ACMTest/static/media/A.dd0ce8bd.png"
+  },
+  {
     "revision": "c68aba0cb5db309399f9e121c6247682",
     "url": "/ACMTest/static/media/ACM.c68aba0c.png"
+  },
+  {
+    "revision": "a3cb5da37d74ab563d4bce3084a3ea4f",
+    "url": "/ACMTest/static/media/a.a3cb5da3.jpg"
   },
   {
     "revision": "df7ae46e3320b143f189082c83b9edaf",
     "url": "/ACMTest/static/media/aarush.df7ae46e.jpeg"
   },
   {
+    "revision": "40021edceacf6bf315fc0be871911312",
+    "url": "/ACMTest/static/media/b.40021edc.jpg"
+  },
+  {
+    "revision": "5800d65cca51f0e20582e82b9bb01809",
+    "url": "/ACMTest/static/media/c.5800d65c.jpg"
+  },
+  {
     "revision": "e446edffc84fb6789da93c44c8333f9c",
     "url": "/ACMTest/static/media/compe.e446edff.jpg"
   },
   {
+    "revision": "a3719f06a7eb597b63a5d701da8ddc3d",
+    "url": "/ACMTest/static/media/d.a3719f06.jpg"
+  },
+  {
     "revision": "0ecbc0cb5fc2ee42103572964800f981",
     "url": "/ACMTest/static/media/dakshit.0ecbc0cb.jpeg"
+  },
+  {
+    "revision": "74497a15c4039ab928c6c393fdefed81",
+    "url": "/ACMTest/static/media/e.74497a15.jpg"
   },
   {
     "revision": "40021edceacf6bf315fc0be871911312",
@@ -56,12 +80,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/event3.cae78d4b.jpg"
   },
   {
+    "revision": "72052a64e1e66ad9cea08616a5ffe56e",
+    "url": "/ACMTest/static/media/f.72052a64.jpg"
+  },
+  {
+    "revision": "47c23984b1ffc609c337e7708a6d6141",
+    "url": "/ACMTest/static/media/g.47c23984.jpg"
+  },
+  {
     "revision": "bccbd604b7b8ecfd87a0a9ebc9a4d571",
     "url": "/ACMTest/static/media/game.bccbd604.png"
   },
   {
     "revision": "35ebb172e9bca88b2657d8dc854bc66c",
     "url": "/ACMTest/static/media/game1.35ebb172.jpg"
+  },
+  {
+    "revision": "7cc5fe676697e89fd2ba8cb3850aa545",
+    "url": "/ACMTest/static/media/h.7cc5fe67.jpg"
+  },
+  {
+    "revision": "bdbfa43d4b84c5a29831d9109dbd84cb",
+    "url": "/ACMTest/static/media/i.bdbfa43d.jpg"
   },
   {
     "revision": "191cc9f50f3b76b9617cb383f19acb7d",
