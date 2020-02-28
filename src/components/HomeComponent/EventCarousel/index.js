@@ -1,15 +1,7 @@
 import React from 'react';
 import {Carousel} from 'react-bootstrap';
-import Event1 from './../../../assets/images/event1.jpg';
-import Event2 from './../../../assets/images/event2.jpg';
-import Event3 from './../../../assets/images/event3.jpg';
+import {eventList} from './../../../assets/events';
 import './index.scss';
-
-const eventList = [
-    {img: Event1, heading: 'First event', subtitle: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'},
-    {img: Event2, heading: 'Second event', subtitle: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'},
-    {img: Event3, heading: 'Third event', subtitle: 'Praesent commodo cursus magna, vel scelerisque nisl consectetur.'},
-]
 
 export const EventCarousel = props => {
     return (

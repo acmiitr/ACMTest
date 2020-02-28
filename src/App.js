@@ -7,6 +7,7 @@ import {BlogComponent} from './components/BlogComponent';
 import {NavComponent} from './components/NavComponent';
 import {FooterComponent} from './components/FooterComponent';
 import { TeamComponent } from './components/TeamComponent';
+import {GalleryComponent} from './components/GalleryComponent';
 import ScrollComponent from './components/ScrollTop';
 import './App.css';
 
@@ -23,9 +24,10 @@ function App() {
         <ScrollComponent scrollTop={scrollTop}>
           <Route exact path="/" component={HomeComponent} />
           <Route exact path="/about" component={AboutComponent} />
-          <Route exact path="/event" component={EventComponent} />
+          {/* <Route exact path="/event" component={EventComponent} /> */}
           <Route exact path="/blogs" component={BlogComponent} />
           <Route exact path="/team" component={TeamComponent} />
+          <Route exact path="/gallery" component={GalleryComponent} />
         </ScrollComponent>
       </Switch>
       <FooterComponent />

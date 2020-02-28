@@ -58,7 +58,7 @@ export const HomeComponent = (props) => {
                 <Container>
                     <h3 className="pt-5 pb-3 d-flex justify-content-between">
                         <span>Events</span>
-                        <Button as={NavLink} to={"/event"} className="car-button" variant={"outline-primary"} size="sm">Show more</Button>
+                        {/* <Button as={NavLink} to={"/event"} className="car-button" variant={"outline-primary"} size="sm">Show more</Button> */}
                     </h3>
                     <EventCarousel />
                 </Container>                

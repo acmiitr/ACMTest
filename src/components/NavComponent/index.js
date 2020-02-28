@@ -15,8 +15,9 @@ export const NavComponent = props => {
                 <Nav className="ml-auto">
                     <Nav.Link as={NavLink} activeClassName={"active"} exact to={""}>HOME</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"about"}>ABOUT</Nav.Link>
-                    <Nav.Link as={NavLink} activeClassName={"active"} to={"event"}>EVENT</Nav.Link>
+                    {/* <Nav.Link as={NavLink} activeClassName={"active"} to={"event"}>EVENT</Nav.Link> */}
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"blogs"}>BLOGS</Nav.Link>
+                    <Nav.Link as={NavLink} activeClassName={"active"} to={"gallery"}>GALLERY</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"team"}>TEAM</Nav.Link>
                 </Nav>     
             </Navbar.Collapse>
