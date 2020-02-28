@@ -1,6 +1,9 @@
-#root{
+#acm-root{
   padding-top: 0;
   height: 100%;
   /* overflow-y: auto; */
 }
 
+.pointer{
+  cursor: pointer;
+}

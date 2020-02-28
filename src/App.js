@@ -7,21 +7,29 @@ import {BlogComponent} from './components/BlogComponent';
 import {NavComponent} from './components/NavComponent';
 import {FooterComponent} from './components/FooterComponent';
 import { TeamComponent } from './components/TeamComponent';
+import ScrollComponent from './components/ScrollTop';
 import './App.css';
 
 function App() {
+  let myRef = '';
+  const scrollTop = () => {
+    console.log(myRef);
+    myRef.scrollIntoView({ behavior: "smooth" });
+  }
   return (
-    <React.Fragment>
+    <div ref={el=> {myRef=el;}} id="acm-root">
       <NavComponent/>
       <Switch>
-        <Route exact path="/" component={HomeComponent} />
-        <Route exact path="/about" component={AboutComponent} />
-        <Route exact path="/event" component={EventComponent} />
-        <Route exact path="/blogs" component={BlogComponent} />
-        <Route exact path="/team" component={TeamComponent} />
+        <ScrollComponent scrollTop={scrollTop}>
+          <Route exact path="/" component={HomeComponent} />
+          <Route exact path="/about" component={AboutComponent} />
+          <Route exact path="/event" component={EventComponent} />
+          <Route exact path="/blogs" component={BlogComponent} />
+          <Route exact path="/team" component={TeamComponent} />
+        </ScrollComponent>
       </Switch>
       <FooterComponent />
-    </React.Fragment>
+    </div>
   );
 }
 

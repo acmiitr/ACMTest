@@ -7,7 +7,7 @@ export const AboutComponent = (props) => {
     return (
         <React.Fragment >
             <div className="hero-area px-2 px-md-5">
-                <div class="text-content px-md-5">
+                <div className="text-content px-md-5">
                     <Col xs={12} className="emoji mb-3">
                         {/* &lt;(￣︶￣)&gt; */}
                         :)
