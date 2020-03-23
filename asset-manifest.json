@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ACMTest/static/css/main.cd12f01a.chunk.css",
-    "main.js": "/ACMTest/static/js/main.ad0139bc.chunk.js",
-    "main.js.map": "/ACMTest/static/js/main.ad0139bc.chunk.js.map",
+    "main.css": "/ACMTest/static/css/main.73d7c3d4.chunk.css",
+    "main.js": "/ACMTest/static/js/main.fe7f834f.chunk.js",
+    "main.js.map": "/ACMTest/static/js/main.fe7f834f.chunk.js.map",
     "runtime-main.js": "/ACMTest/static/js/runtime-main.b261adc2.js",
     "runtime-main.js.map": "/ACMTest/static/js/runtime-main.b261adc2.js.map",
-    "static/css/2.48be9feb.chunk.css": "/ACMTest/static/css/2.48be9feb.chunk.css",
-    "static/js/2.b0d512d1.chunk.js": "/ACMTest/static/js/2.b0d512d1.chunk.js",
-    "static/js/2.b0d512d1.chunk.js.map": "/ACMTest/static/js/2.b0d512d1.chunk.js.map",
+    "static/css/2.941b6c66.chunk.css": "/ACMTest/static/css/2.941b6c66.chunk.css",
+    "static/js/2.aa93d7e7.chunk.js": "/ACMTest/static/js/2.aa93d7e7.chunk.js",
+    "static/js/2.aa93d7e7.chunk.js.map": "/ACMTest/static/js/2.aa93d7e7.chunk.js.map",
     "index.html": "/ACMTest/index.html",
-    "precache-manifest.430674a29778afdf2b6015c1fa54b1f0.js": "/ACMTest/precache-manifest.430674a29778afdf2b6015c1fa54b1f0.js",
+    "precache-manifest.c50817d0bcc500526b978ffac917a4de.js": "/ACMTest/precache-manifest.c50817d0bcc500526b978ffac917a4de.js",
     "service-worker.js": "/ACMTest/service-worker.js",
-    "static/css/2.48be9feb.chunk.css.map": "/ACMTest/static/css/2.48be9feb.chunk.css.map",
-    "static/css/main.cd12f01a.chunk.css.map": "/ACMTest/static/css/main.cd12f01a.chunk.css.map",
-    "static/js/2.b0d512d1.chunk.js.LICENSE.txt": "/ACMTest/static/js/2.b0d512d1.chunk.js.LICENSE.txt",
+    "static/css/2.941b6c66.chunk.css.map": "/ACMTest/static/css/2.941b6c66.chunk.css.map",
+    "static/css/main.73d7c3d4.chunk.css.map": "/ACMTest/static/css/main.73d7c3d4.chunk.css.map",
+    "static/js/2.aa93d7e7.chunk.js.LICENSE.txt": "/ACMTest/static/js/2.aa93d7e7.chunk.js.LICENSE.txt",
     "static/media/A.png": "/ACMTest/static/media/A.dd0ce8bd.png",
     "static/media/a.jpg": "/ACMTest/static/media/a.a3cb5da3.jpg",
     "static/media/aarush.jpeg": "/ACMTest/static/media/aarush.df7ae46e.jpeg",
@@ -50,9 +50,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b261adc2.js",
-    "static/css/2.48be9feb.chunk.css",
-    "static/js/2.b0d512d1.chunk.js",
-    "static/css/main.cd12f01a.chunk.css",
-    "static/js/main.ad0139bc.chunk.js"
+    "static/css/2.941b6c66.chunk.css",
+    "static/js/2.aa93d7e7.chunk.js",
+    "static/css/main.73d7c3d4.chunk.css",
+    "static/js/main.fe7f834f.chunk.js"
   ]
 }
