@@ -1,7 +1,7 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
-import Logo from '../../assets/images/ACM.png';
+import Logo from '../../logo.svg';
 import './index.scss';
 
 export const NavComponent = props => {
@@ -15,7 +15,7 @@ export const NavComponent = props => {
                 <Nav className="ml-auto">
                     <Nav.Link as={NavLink} activeClassName={"active"} exact to={""}>HOME</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"about"}>ABOUT</Nav.Link>
-                    {/* <Nav.Link as={NavLink} activeClassName={"active"} to={"event"}>EVENT</Nav.Link> */}
+                    <Nav.Link as={NavLink} activeClassName={"active"} to={"events"}>EVENTS</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"blogs"}>BLOGS</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"gallery"}>GALLERY</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"team"}>TEAM</Nav.Link>

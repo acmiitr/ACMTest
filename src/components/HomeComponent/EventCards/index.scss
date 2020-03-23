@@ -15,6 +15,9 @@ $cardColor: #1c2e4c;
   @media (min-width: 1200px) {
     column-count: 3;
   }
+  .card{
+    margin-bottom: 1.25rem;
+  }
 }
 .card-img-overlay {
   .card-block {

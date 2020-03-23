@@ -12,6 +12,7 @@ export const FooterComponent = props => {
                 <Nav.Link as={NavLink} exact to={'about'} className={"pointer"}>About</Nav.Link>
                 {/* <Nav.Link as={NavLink} exact to={'events'} className={"pointer"}>Events</Nav.Link> */}
                 <Nav.Link as={NavLink} exact to={'blogs'} className={"pointer"}>Blogs</Nav.Link>
+                <Nav.Link as={NavLink} exact to={'events'} className={"pointer"}>Events</Nav.Link>
                 <Nav.Link as={NavLink} exact to={'gallery'} className={"pointer"}>Gallery</Nav.Link>
                 <Nav.Link as={NavLink} exact to={'team'} className={"pointer"}>Team</Nav.Link>
             </div>

@@ -11,7 +11,7 @@ import './index.scss';
 
 const BlogCard = props => {
     return (
-        <Card className="mb-2 pointer">
+        <Card className="mb-2 pointer hover-box">
             <Card.Img variant="top" src={props.blog.image} height={200}/>
             <Card.Body>
                 <Card.Title>{props.blog.title}</Card.Title>
@@ -32,15 +32,6 @@ const BlogCard = props => {
 
 export const HomeComponent = (props) => {
     let events = '';
-
-    const [count, setCount] = useState(3);
-
-    const showAll = () => {
-        setCount(100);
-    }
-    const showLess = () => {
-        setCount(3);
-    }
 
     const scrollDown = () => {
         events.scrollIntoView({ behavior: "smooth" });
@@ -101,16 +92,10 @@ export const HomeComponent = (props) => {
                 <Container>
                     <h3 className="pt-5 pb-3 d-flex justify-content-between">
                         <span>Events</span>
-                        {
-                            count===3? (
-                            <Button onClick={() => showAll()} className="car-button" variant={"outline-primary"} size="sm">Show All</Button>
-                            ):(
-                            <Button onClick={() => showLess()} className="car-button" variant={"outline-primary"} size="sm">Show less</Button>
-                            )
-                        }
+                        <Button as={NavLink} to={"/events"} className="car-button" variant={"outline-primary"} size="sm">Show All</Button>
                         
                     </h3>
-                    <EventCards count={count} />
+                    <EventCards count={3} />
                 </Container>                
                 
             </div>

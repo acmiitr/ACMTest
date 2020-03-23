@@ -5,7 +5,7 @@ import './index.scss';
 
 const BlogCard = props => {
     return (
-        <Card className="blog-card">
+        <Card className="blog-card hover-box">
             <Card.Img variant="top" src={props.blog.image}/>
             <Card.Body>
                 <Card.Title>{props.blog.title}</Card.Title>

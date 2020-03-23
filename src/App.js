@@ -24,7 +24,7 @@ function App() {
         <ScrollComponent scrollTop={scrollTop}>
           <Route exact path="/" component={HomeComponent} />
           <Route exact path="/about" component={AboutComponent} />
-          {/* <Route exact path="/event" component={EventComponent} /> */}
+          <Route exact path="/events" component={EventComponent} />
           <Route exact path="/blogs" component={BlogComponent} />
           <Route exact path="/team" component={TeamComponent} />
           <Route exact path="/gallery" component={GalleryComponent} />
