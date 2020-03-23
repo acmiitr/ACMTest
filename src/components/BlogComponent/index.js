@@ -30,7 +30,7 @@ export const BlogComponent = props => {
                     {
                         blogList.map((obj, i) => {
                             return (
-                                <Col key={i} xs={12} sm={6} md={4} className={"px-4 py-2"}>
+                                <Col key={i} xs={12} sm={6} lg={4} className={"px-4 py-2"}>
                                     <BlogCard blog={obj}/>
                                 </Col>
                             )

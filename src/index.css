@@ -18,6 +18,10 @@ code {
     monospace;
 }
 
+button{
+  outline: none!important;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }

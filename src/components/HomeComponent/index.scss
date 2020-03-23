@@ -1,34 +1,46 @@
 #root{
-    .landing-area{        
+    .wave-bg{
         height: 100%;
-        .row{
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        // background-size: cover;  
+        .landing-area{
+                  
             height: 100%;
-            display: flex;
-            align-items: center;
-        }
-
-        .main-text{
-            font-size: 3em;
-            font-weight: thin;
-        }
-        .secondary-text{
-            font-size: 1.5em;
-            font-weight: thin;
-        }
-        p{
-            text-align: justify;
-        }
-        .scroll-icon{
-            font-weight: 300;
-            bottom: 4%;
-            left: 0;
-            right: 0;
-            margin: auto;
-            font-size: 3em;
-
+            .row{
+                height: 100%;
+                display: flex;
+                align-items: center;
+            }
+    
+            .main-text{
+                font-size: 3em;
+                font-weight: thin;
+            }
+            .secondary-text{
+                font-size: 1.5em;
+                font-weight: thin;
+            }
+            p{
+                text-align: justify;
+            }
+            .scroll-icon{
+                font-weight: 300;
+                bottom: 4%;
+                left: 0;
+                right: 0;
+                margin: auto;
+                font-size: 3em;
+    
+            }
         }
     }
+    
     .gray-back{
         background-color: #f8f9fa;
+    }
+    .icon-div{
+        font-size: 48px;
+        color: #00A2ED;
     }
 }
