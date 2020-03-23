@@ -1,21 +1,20 @@
 {
   "files": {
     "main.css": "/ACMTest/static/css/main.2e328137.chunk.css",
-    "main.js": "/ACMTest/static/js/main.5a2da3d4.chunk.js",
-    "main.js.map": "/ACMTest/static/js/main.5a2da3d4.chunk.js.map",
+    "main.js": "/ACMTest/static/js/main.baf95b59.chunk.js",
+    "main.js.map": "/ACMTest/static/js/main.baf95b59.chunk.js.map",
     "runtime-main.js": "/ACMTest/static/js/runtime-main.b261adc2.js",
     "runtime-main.js.map": "/ACMTest/static/js/runtime-main.b261adc2.js.map",
     "static/css/2.48be9feb.chunk.css": "/ACMTest/static/css/2.48be9feb.chunk.css",
     "static/js/2.b0d512d1.chunk.js": "/ACMTest/static/js/2.b0d512d1.chunk.js",
     "static/js/2.b0d512d1.chunk.js.map": "/ACMTest/static/js/2.b0d512d1.chunk.js.map",
     "index.html": "/ACMTest/index.html",
-    "precache-manifest.92a866b19aa99566b8905b35898294ed.js": "/ACMTest/precache-manifest.92a866b19aa99566b8905b35898294ed.js",
+    "precache-manifest.eb10ba0e4359d0d8d6d616b7e9328e24.js": "/ACMTest/precache-manifest.eb10ba0e4359d0d8d6d616b7e9328e24.js",
     "service-worker.js": "/ACMTest/service-worker.js",
     "static/css/2.48be9feb.chunk.css.map": "/ACMTest/static/css/2.48be9feb.chunk.css.map",
     "static/css/main.2e328137.chunk.css.map": "/ACMTest/static/css/main.2e328137.chunk.css.map",
     "static/js/2.b0d512d1.chunk.js.LICENSE.txt": "/ACMTest/static/js/2.b0d512d1.chunk.js.LICENSE.txt",
     "static/media/A.png": "/ACMTest/static/media/A.dd0ce8bd.png",
-    "static/media/ACM.png": "/ACMTest/static/media/ACM.c68aba0c.png",
     "static/media/a.jpg": "/ACMTest/static/media/a.a3cb5da3.jpg",
     "static/media/aarush.jpeg": "/ACMTest/static/media/aarush.df7ae46e.jpeg",
     "static/media/b.jpg": "/ACMTest/static/media/b.40021edc.jpg",
@@ -41,6 +40,7 @@
     "static/media/h.jpg": "/ACMTest/static/media/h.7cc5fe67.jpg",
     "static/media/home-test.svg": "/ACMTest/static/media/home-test.242bb8bd.svg",
     "static/media/i.jpg": "/ACMTest/static/media/i.bdbfa43d.jpg",
+    "static/media/logo.svg": "/ACMTest/static/media/logo.5f994727.svg",
     "static/media/index.css": "/ACMTest/static/media/montserrat-latin-900italic.a8ec4957.woff",
     "static/media/number.png": "/ACMTest/static/media/number.6b8f20c9.png",
     "static/media/patra.jpeg": "/ACMTest/static/media/patra.1e7dfb84.jpeg",
@@ -53,6 +53,6 @@
     "static/css/2.48be9feb.chunk.css",
     "static/js/2.b0d512d1.chunk.js",
     "static/css/main.2e328137.chunk.css",
-    "static/js/main.5a2da3d4.chunk.js"
+    "static/js/main.baf95b59.chunk.js"
   ]
 }
