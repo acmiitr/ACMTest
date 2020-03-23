@@ -1,18 +1,21 @@
 import React from 'react';
-import Event1 from './images/event1.jpg';
-import Event2 from './images/event2.jpg';
-import Event3 from './images/event3.jpg';
-import Event4 from './images/event4.jpg';
-import Event5 from './images/event5.jpg';
-import Event6 from './images/event6.jpg';
-import Event7 from './images/event7.jpg';
-import Event8 from './images/event8.jpg';
-import Event9 from './images/event9.jpg';
-import Event10 from './images/event10.jpg';
+import Event1H from './images/events/event1-home.jpg';
+import Event1 from './images/events/event1.jpg';
+import Event3 from './images/events/event3.jpg';
+import Event3H from './images/events/event3-home.jpg';
+import Event4 from './images/events/event4.jpg';
+import Event4H from './images/events/event4-home.jpg';
+import Event5 from './images/events/event5.jpg';
+import Event6 from './images/events/event6.jpg';
+import Event7 from './images/events/event7.jpg';
+import Event8 from './images/events/event8.jpg';
+import Event9 from './images/events/event9.jpg';
+import Event11 from './images/events/event11.jpg';
+import Event12 from './images/events/event12.jpg';
 
-export const eventList = [
+export const homeEventList = [
     {
-        img: Event1, 
+        img: Event1H, 
         heading: 'Semantic understanding of user queries', 
         subtitle: <React.Fragment>
                 <p>
@@ -25,12 +28,12 @@ export const eventList = [
         date: "Aug 2018"
     },
     {
-        img: Event3, 
+        img: Event3H, 
         heading: 'Microsoft talk', 
         subtitle: 'Microsoft talk held before the Microsoft Code.Fun.Do hackathon.'
     },
     {
-        img: Event4,
+        img: Event4H,
         heading: 'Major League Hacking - Local Hack Day',
         subtitle: <React.Fragment>
             <ul>
@@ -41,57 +44,137 @@ export const eventList = [
             </ul>
         </React.Fragment>,
         date: '12/10/2019'
-    },
-    {
-        img: Event5,
-        heading: 'Workshop on Introduction to Quantum Computing',
-        subtitle: <React.Fragment>
-            
-        </React.Fragment>,
-        date: '19/02/2020'
-    },
-    {
-        img: Event6,
-        heading: 'Socket Programming workshop',
-        subtitle: <React.Fragment>
-            <p className="font-weight-bold font-weight-italic">"Build your own Client-Server Chatroom"</p>
-        </React.Fragment>,
-        date: '14/02/2020'
-    },
-    {
-        img: Event7,
-        heading: 'Workshop on Neural Style Transfer',
-        subtitle: <React.Fragment>
-            <p></p>
-        </React.Fragment>,
-        date: '28/01/2020'
-    },
-    {
-        img: Event8,
-        heading: 'Intro talk',
-        subtitle: <React.Fragment>
-            <p></p>
-        </React.Fragment>,
-        date: '26/08/2019'
-    },
-    {
-        img: Event9,
-        heading: 'Intro to CS + Recruitment talk ',
-        subtitle: <React.Fragment>
-            <p>
+    }
+];
 
-            </p>
-        </React.Fragment>,
-        date: '13/02/2020'
+export const eventList = [
+    {
+        year: 2018,
+        events: [
+            {
+                img: Event1, 
+                heading: 'Semantic understanding of user queries', 
+                subtitle: <React.Fragment>
+                        <p>
+                        {`Eminent Speaker Program talk by Manoj Agarwal, Principal Applied Scientist at the AI & Research team in Microsoft India`}
+                        </p>
+                        <p className="font-weight-bold">
+                            "How knowledge graphs and Deep learning techniques are helping!"
+                        </p>
+                    </React.Fragment>,
+                date: '7',
+                month: "AUG"
+            },
+            {
+                img: Event3, 
+                heading: 'Microsoft code.fun.do Talk', 
+                subtitle: <React.Fragment>
+                    <p>
+                        Bootcamp organized before the Microsoft code.fun.do hackathon.
+                    </p>
+                    <p>
+                        Primary goal was to make students aware of various Microsoft Azure Technologies and software applications.
+                    </p>
+                </React.Fragment>,
+                date: "27",
+                month: 'OCT',
+            },
+        ]
     },
     {
-        img: Event10,
-        heading: 'VLG Discussions on Basics and Advancements in Deep Learning',
-        subtitle: <React.Fragment>
-            <p>
-
-            </p>
-        </React.Fragment>,
-        date: 'Weekly'
+        year: 2019,
+        events: [
+            {
+                img: Event8,
+                heading: 'Intro talk',
+                subtitle: <React.Fragment>
+                    <p>
+                    Talk to introduce the IITR students to our group and to ACM as a global organization. We also cleared some misconceptions about our group and displayed our alumni relations. 
+                    </p>
+                </React.Fragment>,
+                date: '26',
+                month: 'AUG'
+            },
+            {
+                img: Event4,
+                heading: 'Major League Hacking - Local Hack Day',
+                subtitle: <React.Fragment>
+                    <div>Learn C# with Unity</div>
+                    <div>Intro to Python Skills for AI</div>
+                    <div>IBM Z workshop</div>
+                    <p>Hacking with Amazon Alexa</p>
+                </React.Fragment>,
+                date: '12',
+                month: 'OCT'
+            },
+        ]
     },
+    {
+        year: 2020,
+        events: [
+            {
+                img: Event12,
+                heading: 'Vision & Language Group Recruitment Talk',
+                subtitle: <React.Fragment>
+                    Gave a brief introduction to Vision and Language Group and it’s activities. Covered topics about how the core team of group functions and what benefits one can get on joining the core team.
+                </React.Fragment>,
+                date: '23',
+                month: 'JAN'
+            },
+            {
+                img: Event7,
+                heading: 'Workshop on Neural Style Transfer',
+                subtitle: <React.Fragment>
+                    <p>
+                    Covered the basics of Convolutional Neural Networks, Gram Matrices, and the concept of Neural Style Transfer along with live coding session on google colab.
+                    </p>
+                </React.Fragment>,
+                date: '28',
+                month: 'JAN'
+            },
+            {
+                img: Event9,
+                heading: 'Intro to CS + Recruitment talk ',
+                subtitle: <React.Fragment>
+                    <p>
+                    Presented some of the fascinating applications of different fields of Computer Science. Also talked about our recruitment process and the things we desire from people who wish to join our core team.
+                    </p>
+                </React.Fragment>,
+                date: '13',
+                month: 'FEB'
+            },
+            {
+                img: Event6,
+                heading: 'Socket Programming workshop',
+                subtitle: <React.Fragment>
+                    <p className="font-weight-bold font-weight-italic">"Build your own Client-Server Chatroom"</p>
+                    <p>Covered basics of socket programming in C++ and made a single-threaded client-server chat application using TCP protocol</p>
+                </React.Fragment>,
+                date: '14',
+                month: 'FEB'
+            },
+            {
+                img: Event5,
+                heading: 'Workshop on Introduction to Quantum Computing',
+                subtitle: <React.Fragment>
+                    <p>
+                    Covered the basics of qubits and some of the basic circuits of Quantum Computing along with hands-on experience with IBM Quantum Computing Experience. 
+                    </p>
+                </React.Fragment>,
+                date: '19',
+                month: 'FEB'
+            },
+            {
+                img: Event11,
+                heading: 'Os workshop - File Systems (FAT12)',
+                subtitle: <React.Fragment>
+                    <p>
+                    Gave an introduction to operating systems, followed by an explanation of the FAT12 file system in detail and studying the hex file of a filesystem.
+                    </p>
+                </React.Fragment>,
+                date: '20',
+                month: 'FEB'
+            },
+        ]
+    }
 ]
