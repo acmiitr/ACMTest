@@ -1,10 +1,9 @@
 import React, {useState} from 'react';
-import {Button, Row, Col} from 'react-bootstrap';
+import {Row, Col, Button, ButtonGroup} from 'react-bootstrap';
 import {eventList} from './../../assets/events';
 import './index.scss';
 
 const TimeLine = props => {
-    console.log(eventList);
     return (
         <React.Fragment>
             <div className="page">
@@ -41,6 +40,25 @@ const TimeLine = props => {
     )
 }
 
+const HorizontalTimeLine = props => {
+    return (
+        <ButtonGroup id="horizontal-timeline" className="position-absolute d-md-none">
+            {
+                eventList.map((year,i) => {
+                    return (
+                        year.events.map((event, i)=> {
+                            return (
+                                <Button onClick={()=>{props.setEvent(event)}} variant={"info"}>{event.month} {event.date}</Button>
+                            )
+                        })
+                    )
+                    
+                })
+            }
+        </ButtonGroup>
+    )
+}
+
 const monthMap = {
     'JAN': 'January',
     'FEB': 'February',
@@ -72,12 +90,13 @@ export const EventComponent = props => {
         <React.Fragment>
             <div id="event-container" className="px-5">
                 <Row className="full-height">
-                    <Col id="event-details" className="full-height bg-image py-5 pr-4" style={{backgroundImage: `linear-gradient(to left, rgba(28, 46, 76, 0.9), rgba(33, 147, 176, 0.6)),url(${event.img})`}}>
+                    <Col id="event-details" className="full-height bg-image py-5 pr-4 position-relative" style={{backgroundImage: `linear-gradient(to left, rgba(28, 46, 76, 0.9), rgba(33, 147, 176, 0.6)),url(${event.img})`}}>
                         <h4 className="pb-4">{event.heading}</h4>
                         {event.subtitle}
                         <small>{getWhen(event)}</small>
+                        <HorizontalTimeLine setEvent={setEvent}/>
                     </Col>
-                    <Col className="full-height py-2 position-relative">
+                    <Col className="full-height py-2 position-relative d-none d-md-block">
                         <div className="position-absolute floating-text px-4 py-3" style={{right: 0, top: 0, zIndex: 100}}>
                             <div>
                                 Past Events

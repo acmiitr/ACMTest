@@ -181,3 +181,11 @@
         color: #787878;
     }
 }
+#horizontal-timeline{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+    bottom: 0;
+    right: 0;
+}
