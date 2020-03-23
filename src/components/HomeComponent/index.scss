@@ -37,10 +37,16 @@
     }
     
     .gray-back{
+        // background-color: rgba($color: #0099ff, $alpha: 0.25);
+        
         background-color: #f8f9fa;
     }
     .icon-div{
         font-size: 48px;
         color: #00A2ED;
+    }
+    .image-bottom{
+        background-position: top center;
+        background-repeat: no-repeat;
     }
 }
