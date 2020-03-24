@@ -4,6 +4,8 @@ import Crypto from './../assets/images/blogs/crypto.jpg';
 import Compe from './../assets/images/blogs/compe.jpg';
 import Number from './../assets/images/blogs/number.png';
 import Deepl from './../assets/images/blogs/deepl.jpg';
+import Quantu from './../assets/images/blogs/quantu.jpg';
+import OSDev from './../assets/images/blogs/osdev.jpg';
 
 export const blogList = [
     {
@@ -50,13 +52,23 @@ export const blogList = [
         title: 'Guide to Deep Learning',
         link: 'https://medium.com/@vlgiitr18/guide-to-deep-learning-585bfcad0b43',
         text: 'A guide to get started with Deep Learning as well as an in-depth knowledge of the field.',
-        author: '',
+        author: 'VLG IIT Roorkee',
         image: Deepl,
         date: '2019-05-17'
     },
     {
         title: 'Guide to Quantum Computing',
         link: 'https://medium.com/@acmiitr/guide-to-quantum-computing-d9249d400e2',
-        text: 'A blog to give the reader a headstart into the field of quantum computing, oulining the prerequisites, basics, advanced topics and implementations.'
+        text: 'A blog to give the reader a headstart into the field of quantum computing, oulining the prerequisites, basics, advanced topics and implementations.',
+        author: 'Rhea Parekh, Daattavya Aggarwal, Natansh Mathur and Sudhang Varshney',
+        image: Quantu,
+        date: '2020-02-19'
+    },
+    {
+        title: 'OS development guide',
+        link: 'https://kssuraaj28.github.io/',
+        text: 'Series of blogs discussing the journey to creation of your own Operating system',
+        author: 'Suraaj K S',
+        image: OSDev,
     }
 ]

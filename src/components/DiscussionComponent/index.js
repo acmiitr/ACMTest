@@ -30,7 +30,7 @@ const DateDiv = props => {
 
 const DiscussionData = props => {
     return (
-        <div id="discussion-data-tab" className="px-3 py-2">
+        <div id="discussion-data-tab" className="px-3 py-2 mb-3">
             <Tabs variant={"pills"} defaultActiveKey={discussionList[0].holder}>
                 {
                     discussionList.map((team, i) => {

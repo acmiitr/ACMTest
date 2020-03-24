@@ -11,7 +11,9 @@ import './index.scss';
 
 const BlogCard = props => {
     return (
-        <Card className="mb-2 pointer hover-box">
+        <Card onClick={() => {
+            window.location.href=props.blog.link;
+        }} className="mb-2 pointer hover-box">
             <Card.Img variant="top" src={props.blog.image} height={200}/>
             <Card.Body>
                 <Card.Title>{props.blog.title}</Card.Title>
