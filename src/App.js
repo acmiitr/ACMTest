@@ -7,7 +7,7 @@ import {BlogComponent} from './components/BlogComponent';
 import {NavComponent} from './components/NavComponent';
 import {FooterComponent} from './components/FooterComponent';
 import { TeamComponent } from './components/TeamComponent';
-import {GalleryComponent} from './components/GalleryComponent';
+import {DiscussionComponent} from './components/DiscussionComponent';
 import ScrollComponent from './components/ScrollTop';
 import './App.css';
 
@@ -27,7 +27,7 @@ function App() {
           <Route exact path="/events" component={EventComponent} />
           <Route exact path="/blogs" component={BlogComponent} />
           <Route exact path="/team" component={TeamComponent} />
-          <Route exact path="/gallery" component={GalleryComponent} />
+          <Route exact path="/discussions" component={DiscussionComponent} />
         </ScrollComponent>
       </Switch>
       <FooterComponent />

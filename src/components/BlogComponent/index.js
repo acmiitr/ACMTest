@@ -16,7 +16,7 @@ const BlogCard = props => {
                 </Card.Text>
                 
             </Card.Body>
-            <Button variant="primary">View on Medium</Button>
+            <Button variant="primary" href={"https://medium.com/@deepanshnagaria/basic-number-theory-451d73d4d57f"}>Follow Link</Button>
         </Card>
     )
 }

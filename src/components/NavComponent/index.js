@@ -17,7 +17,7 @@ export const NavComponent = props => {
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"about"}>ABOUT</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"events"}>EVENTS</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"blogs"}>BLOGS</Nav.Link>
-                    <Nav.Link as={NavLink} activeClassName={"active"} to={"gallery"}>GALLERY</Nav.Link>
+                    <Nav.Link as={NavLink} activeClassName={"active"} to={"discussions"}>DISCUSSIONS</Nav.Link>
                     <Nav.Link as={NavLink} activeClassName={"active"} to={"team"}>TEAM</Nav.Link>
                 </Nav>     
             </Navbar.Collapse>
