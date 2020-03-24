@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ACMTest/static/css/main.bee8b84e.chunk.css",
-    "main.js": "/ACMTest/static/js/main.b8d27d1e.chunk.js",
-    "main.js.map": "/ACMTest/static/js/main.b8d27d1e.chunk.js.map",
+    "main.css": "/ACMTest/static/css/main.134c5342.chunk.css",
+    "main.js": "/ACMTest/static/js/main.54826644.chunk.js",
+    "main.js.map": "/ACMTest/static/js/main.54826644.chunk.js.map",
     "runtime-main.js": "/ACMTest/static/js/runtime-main.b261adc2.js",
     "runtime-main.js.map": "/ACMTest/static/js/runtime-main.b261adc2.js.map",
     "static/css/2.48be9feb.chunk.css": "/ACMTest/static/css/2.48be9feb.chunk.css",
-    "static/js/2.2602d62a.chunk.js": "/ACMTest/static/js/2.2602d62a.chunk.js",
-    "static/js/2.2602d62a.chunk.js.map": "/ACMTest/static/js/2.2602d62a.chunk.js.map",
+    "static/js/2.2818316f.chunk.js": "/ACMTest/static/js/2.2818316f.chunk.js",
+    "static/js/2.2818316f.chunk.js.map": "/ACMTest/static/js/2.2818316f.chunk.js.map",
     "index.html": "/ACMTest/index.html",
-    "precache-manifest.d576c652ae36b47dd3a902c9a5306862.js": "/ACMTest/precache-manifest.d576c652ae36b47dd3a902c9a5306862.js",
+    "precache-manifest.1fc37eeace3f5318f4026b7f98dd85e0.js": "/ACMTest/precache-manifest.1fc37eeace3f5318f4026b7f98dd85e0.js",
     "service-worker.js": "/ACMTest/service-worker.js",
     "static/css/2.48be9feb.chunk.css.map": "/ACMTest/static/css/2.48be9feb.chunk.css.map",
-    "static/css/main.bee8b84e.chunk.css.map": "/ACMTest/static/css/main.bee8b84e.chunk.css.map",
-    "static/js/2.2602d62a.chunk.js.LICENSE.txt": "/ACMTest/static/js/2.2602d62a.chunk.js.LICENSE.txt",
+    "static/css/main.134c5342.chunk.css.map": "/ACMTest/static/css/main.134c5342.chunk.css.map",
+    "static/js/2.2818316f.chunk.js.LICENSE.txt": "/ACMTest/static/js/2.2818316f.chunk.js.LICENSE.txt",
     "static/media/aarush.jpeg": "/ACMTest/static/media/aarush.df7ae46e.jpeg",
     "static/media/compe.jpg": "/ACMTest/static/media/compe.e446edff.jpg",
     "static/media/dakshit.jpeg": "/ACMTest/static/media/dakshit.0ecbc0cb.jpeg",
@@ -37,16 +37,18 @@
     "static/media/logo.svg": "/ACMTest/static/media/logo.5f994727.svg",
     "static/media/index.css": "/ACMTest/static/media/montserrat-latin-900italic.a8ec4957.woff",
     "static/media/number.png": "/ACMTest/static/media/number.6b8f20c9.png",
+    "static/media/osdev.jpg": "/ACMTest/static/media/osdev.2d2394a0.jpg",
     "static/media/patra.jpeg": "/ACMTest/static/media/patra.1e7dfb84.jpeg",
     "static/media/qr_acm.svg": "/ACMTest/static/media/qr_acm.708378a0.svg",
+    "static/media/quantu.jpg": "/ACMTest/static/media/quantu.76215e5d.jpg",
     "static/media/wave.svg": "/ACMTest/static/media/wave.92c14f68.svg",
     "static/media/wave_inverse.svg": "/ACMTest/static/media/wave_inverse.c681557c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b261adc2.js",
     "static/css/2.48be9feb.chunk.css",
-    "static/js/2.2602d62a.chunk.js",
-    "static/css/main.bee8b84e.chunk.css",
-    "static/js/main.b8d27d1e.chunk.js"
+    "static/js/2.2818316f.chunk.js",
+    "static/css/main.134c5342.chunk.css",
+    "static/js/main.54826644.chunk.js"
   ]
 }
