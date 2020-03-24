@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, Row, Col, Tab, Tabs} from 'react-bootstrap'
 import {discussionList} from './../../assets/discussions';
+import BackImage from './../../assets/images/discussions/back.jpeg';
 import './index.scss';
 
 const IconCard = props => {
@@ -76,8 +77,8 @@ export const DiscussionComponent = props => {
     return (
         <div id="discussion-container" className="full-height">
             <Row className="full-height">
-                <Col xs={12} md={6} className="full-height">
-                    <Container className="px-5 pt-5 full-height text-container">
+                <Col xs={12} md={6} className="full-height text-column">
+                    <Container className="px-5 pt-5 full-height text-container position-relative">
                         <h4>Weekly Discussions</h4>
                         <p>
                             ACM IIT Roorkee Student Chapter conducts weekly discussions in the core computer science fields such as Operating Systems, Networking, and Deep Learning.
@@ -94,25 +95,28 @@ export const DiscussionComponent = props => {
                             </Col>
                         </Row>
                         <div>
-                        Details of the discussions can be found on the following Facebook groups:
-                        <ul>
-                            <li>
-                                <a href="https://www.facebook.com/groups/acmIITroorkee/">
-                                    ACM Discussion Group <i class="fa fa-external-link" aria-hidden="true"></i>
-                                </a>
-                            </li>    
-                            <li>
-                                <a href="https://www.facebook.com/groups/1890944924568897/">
-                                    Vision and Language Group <i class="fa fa-external-link" aria-hidden="true"></i>
-                                </a>                            
-                            </li>
-                        </ul>
-                        <DiscussionData/>                        
-                        </div>
-                        
+                            Details of the discussions can be found on the following Facebook groups:
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/groups/acmIITroorkee/">
+                                        ACM Discussion Group <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>
+                                </li>    
+                                <li>
+                                    <a href="https://www.facebook.com/groups/1890944924568897/">
+                                        Vision and Language Group <i class="fa fa-external-link" aria-hidden="true"></i>
+                                    </a>                            
+                                </li>
+                            </ul>
+                            <h4 className="my-4">Past Discussions</h4>
+                            <DiscussionData/>                        
+                        </div>                        
                     </Container>
                 </Col>
-                <Col xs={4} md={6} className="full-height">No</Col>
+                <Col xs={4} md={6} className="d-none d-md-block position-relative full-height image-column"  style={{backgroundImage: `url(${BackImage})`}}>
+                    <div className="os-text">OS & <br/>Networks</div>
+                    <div className="deep-text">Deep <br/>Learning</div>
+                </Col>
             </Row>
         </div>
     )

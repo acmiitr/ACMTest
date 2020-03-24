@@ -23,8 +23,8 @@ export const FooterComponent = props => {
                 <Button variant={"secondary"} href={"https://github.com/acmiitr/"} target="blank">
                 <i className="fa fa-github-square"></i>
                 </Button>
-                <Button variant={"secondary"} href={"https://medium.com/@deepanshnagaria"} target="blank">
-                <i className="fa fa-medium"></i>
+                <Button variant={"secondary"} href={"https://www.linkedin.com/company/acmiitr/"} target="blank">
+                <i className="fa fa-linkedin"></i>
                 </Button>
             </div>
             <div style={{margin: 'auto'}} className="text-center w-75 d-block d-md-none  text-center">
