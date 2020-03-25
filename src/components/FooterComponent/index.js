@@ -33,6 +33,9 @@ export const FooterComponent = props => {
             <div style={{margin: 'auto'}} className="text-center w-50 d-none d-md-block text-center">
             The IIT Roorkee ACM Student Chapter is an official student body incepted in 2014 under the aegis of Department of Computer Science and Engineering, IIT Roorkee.
             </div>
+            <div style={{margin: 'auto'}} className="text-center w-75 d-none d-md-block text-center text-muted">
+                Made with &hearts; by Rahul
+            </div>
             
         </Row>
     )

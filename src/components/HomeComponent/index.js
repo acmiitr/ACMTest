@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {Container, Col, Row, Button, Card} from 'react-bootstrap';
 import {EventCards} from './EventCards';
 import {NavLink} from 'react-router-dom';
 // import Logo from './../../assets/images/ACM.png';
 import Wave from './../../assets/images/wave.svg';
-import Wave2 from './../../assets/images/wave_inverse.svg';
 import Test from './../../assets/images/home-test.svg';
 import {blogList} from './../../assets/blogs';
 import './index.scss';

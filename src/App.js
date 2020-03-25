@@ -10,6 +10,7 @@ import { TeamComponent } from './components/TeamComponent';
 import {DiscussionComponent} from './components/DiscussionComponent';
 import ScrollComponent from './components/ScrollTop';
 import './App.css';
+// import 'font-awesome';
 
 function App() {
   let myRef = '';

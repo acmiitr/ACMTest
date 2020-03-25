@@ -38,7 +38,7 @@ const DiscussionData = props => {
                         return (
                             <Tab key={i} eventKey={team.holder} title={team.holder}>
                                 {
-                                    team.discussions.map((discussion, j) => {
+                                    team.discussions.reverse().map((discussion, j) => {
                                         return (
                                             <div className="discussion-event py-2 px-3 my-3 d-flex flex-row">
                                                 <div className="discussion-date mr-2">
@@ -47,16 +47,23 @@ const DiscussionData = props => {
                                                 <div className="discussion-content">
                                                     <div className="discussion-topic">{discussion.topic}</div>
                                                     <div className="discussion-resources mt-2">
-                                                        Resources
-                                                        {
-                                                            discussion.resources.map((resource, k) => {
-                                                                return (
-                                                                    <div className="discussion-resource"  key={k}>
-                                                                        <a href={resource}>Resource {k+1} <i class="fa fa-link" aria-hidden="true"></i></a>
-                                                                    </div>
-                                                                )
-                                                            })
+                                                        { discussion.resources.length>0?(
+                                                            <React.Fragment>
+                                                                Resources
+                                                                {
+                                                                    discussion.resources.map((resource, k) => {
+                                                                        return (
+                                                                            <div className="discussion-resource"  key={k}>
+                                                                                <a href={resource.link}>{resource.name} <i class="fa fa-link" aria-hidden="true"></i></a>
+                                                                            </div>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </React.Fragment>
+                                                                
+                                                            ):(<React.Fragment></React.Fragment>)
                                                         }
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -78,7 +85,7 @@ export const DiscussionComponent = props => {
         <div id="discussion-container" className="full-height">
             <Row className="full-height">
                 <Col xs={12} md={6} className="full-height text-column">
-                    <Container className="px-5 pt-5 full-height text-container position-relative">
+                    <Container className="px-3 px-md-5 pt-5 full-height text-container position-relative">
                         <h4>Weekly Discussions</h4>
                         <p>
                             ACM IIT Roorkee Student Chapter conducts weekly discussions in the core computer science fields such as Operating Systems, Networking, and Deep Learning.

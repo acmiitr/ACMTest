@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Row, Col, Button, ButtonGroup} from 'react-bootstrap';
+import TeamImage from './../../assets/images/team/full-team.jpg';
 import {teamList} from './../../assets/team';
 import './index.scss'
 
@@ -11,8 +12,12 @@ const BearerMemberCard = props => {
                 <div className="bearer-member-name">
                     <span>{props.member.name}</span>
                 </div>
-                <div className="bearer-member-post mb-3 flex-grow-1">
+                <div className="bearer-member-post mb-3">
                     <span className="text-muted">{props.member.position}</span>
+                </div>
+                <div className="field pro-field flex-grow-1">
+                    <span>Slack ID</span>
+                    <span>{props.member.slack}</span>
                 </div>
                 <div className="bearer-member-social d-flex flex-row justify-content-around">
                 <ButtonGroup aria-label="Basic example">
@@ -26,29 +31,16 @@ const BearerMemberCard = props => {
     )
 }
 
-const VerticalHeadCard = props => {
-    return (
-        <div className="vertical-head-card">>
-
-        </div>
-    )
-}
-
-const MemberCard = props => {
-    return (
-        <div className="member-card" style={{backgroundImage: `url(${props.member.image})`}}>
-            <div clasName="member-overlay">
-
-            </div>
-        </div>
-    )
-}
-
 export const TeamComponent = props => {
     return (
-        <Container id="team-container">
-            <h3>Office Bearers</h3>
-            <Row>
+        <React.Fragment>
+            <div className="full-team position-relative" style={{backgroundImage: `linear-gradient(to left, rgba(154, 46, 76, 0.6), rgba(33, 147, 176, 0.6)), url(${TeamImage})`}}>
+                <div className="text-center family-text position-absolute">THE ACM FAMILY</div>
+            </div>
+            <Container id="team-container">
+            
+            <h3 className="text-center">Office Bearers</h3>
+            <Row className={'justify-content-md-center'}>
                 {
                     teamList['bearers'].map((obj, i) => {
                         return (
@@ -59,30 +51,19 @@ export const TeamComponent = props => {
                     })
                 }
             </Row>
-            <h3>Vertical Heads</h3>
-            <Row>
+            <h3 className="mt-4 text-center">Vertical Heads</h3>
+            <Row className={"justify-content-md-center mb-4"}>
                 {
-                    teamList['bearers'].map((obj, i) => {
+                    teamList['heads'].map((obj, i) => {
                         return (
                             <Col key={i} xs={12} sm={6} lg={4} className="px-4 py-2">
                                 <BearerMemberCard member={obj} key={i}/>
-                            </Col>
-                        )
-                    })
-                }
-            </Row>
-            <h3>Members</h3>
-            <Row>
-                {
-                    teamList['members'].map((obj, i) => {
-                        return (
-                            <Col key={i} xs={6} sm={4} lg={2} className="p-0">
-                                <MemberCard member={obj} key={i}/>
                             </Col>
                         )
                     })
                 }
             </Row>
         </Container>
+        </React.Fragment>
     )
 }

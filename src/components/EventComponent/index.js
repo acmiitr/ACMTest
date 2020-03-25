@@ -46,9 +46,9 @@ const HorizontalTimeLine = props => {
             {
                 eventList.map((year,i) => {
                     return (
-                        year.events.map((event, i)=> {
+                        year.events.map((event, j)=> {
                             return (
-                                <Button onClick={()=>{props.setEvent(event)}} variant={"info"}>{event.month} {event.date}</Button>
+                                <Button key={j} className={(event===props.event)?'selected':'test'} onClick={()=>{props.setEvent(event)}} variant={"info"}>{event.month} {event.date}</Button>
                             )
                         })
                     )
@@ -94,7 +94,7 @@ export const EventComponent = props => {
                         <h4 className="pb-4">{event.heading}</h4>
                         {event.subtitle}
                         <small>{getWhen(event)}</small>
-                        <HorizontalTimeLine setEvent={setEvent}/>
+                        <HorizontalTimeLine event={event} setEvent={setEvent}/>
                     </Col>
                     <Col className="full-height py-2 position-relative d-none d-md-block">
                         <div className="position-absolute floating-text px-4 py-3" style={{right: 0, top: 0, zIndex: 100}}>

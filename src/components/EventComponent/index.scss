@@ -188,4 +188,7 @@
     overflow-x: auto;
     bottom: 0;
     right: 0;
+    .selected{
+      background-color: transparent;
+    }
 }

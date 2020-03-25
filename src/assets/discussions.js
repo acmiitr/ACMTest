@@ -4,58 +4,82 @@ export const discussionList = [
         discussions: [
             {
                 date: '05/09/2019',
-                topic: 'Overview of computer architecture',
+                topic: 'Computer Architecture: Overview',
                 resources: [
-                    'https://www.howtogeek.com/398493/what-exactly-happens-when-you-turn-on-your-computer/'
+                    {
+                        link:'https://www.howtogeek.com/398493/what-exactly-happens-when-you-turn-on-your-computer/',
+                        name: "Blog"
+                    }
                 ]
             },
             {
                 date: '06/09/2019',
-                topic: 'First 10 levels of bandit',
+                topic: 'Bandit: Levels 1-10',
                 resources: [
-                    'https://overthewire.org/wargames/bandit/'
+                    {
+                        link: 'https://overthewire.org/wargames/bandit/',
+                        name: 'Bandit Wargame'
+                    }
                 ]
             },
             {
                 date: '24/09/2019',
-                topic: 'Levels 10-14 of bandit',
+                topic: 'Bandit: Levels 11-14',
                 resources: [
-                    'https://overthewire.org/wargames/bandit/'
+                    {
+                        link: 'https://overthewire.org/wargames/bandit/',
+                        name: 'Bandit Wargame'
+                    }
                 ]
             },
             {
                 date: '28/09/2019',
-                topic: 'Overview of assembly language',
+                topic: 'Assembly Language: Overview',
                 resources: [
-                    'http://www.brokenthorn.com/Resources/OSDevIndex.html'
+                    {
+                        link: 'http://www.brokenthorn.com/Resources/OSDevIndex.html',
+                        name: 'Blog'
+                    }
                 ]
             },
             {
                 date: '02/10/2019',
-                topic: 'Levels 14-22 of bandit',
+                topic: 'Bandit: Levels 15-22',
                 resources: [
-                    'https://overthewire.org/wargames/bandit/'
+                    {
+                        link: 'https://overthewire.org/wargames/bandit/',
+                        name: 'Bandit Wargame'
+                    }
                 ]
             },
             {
                 date: '09/10/2019',
                 topic: 'Bootloaders',
                 resources: [
-                    'http://www.brokenthorn.com/Resources/OSDevIndex.html'
+                    {
+                        link: 'http://www.brokenthorn.com/Resources/OSDevIndex.html',
+                        name: 'Blog'
+                    }
                 ]
             },
             {
                 date: '11/10/2019',
-                topic: 'Levels 22-28 of bandit',
+                topic: 'Bandit: Levels 23-28',
                 resources: [
-                    'https://overthewire.org/wargames/bandit/'
+                    {
+                        link: 'https://overthewire.org/wargames/bandit/',
+                        name: 'Bandit Wargame'
+                    }
                 ]
             },
             {
                 date: '16/10/2019',
-                topic: 'Remaining levels of bandit',
+                topic: 'Bandit: Levels 29-33',
                 resources: [
-                    'https://overthewire.org/wargames/bandit/'
+                    {
+                        link: 'https://overthewire.org/wargames/bandit/',
+                        name: 'Bandit Wargame'
+                    }
                 ]
             },
             {
@@ -69,12 +93,16 @@ export const discussionList = [
                 date: '05/02/2020',
                 topic: 'OS Development - Bootloader',
                 resources: [
-                    'https://www.howtogeek.com/398493/what-exactly-happens-when-you-turn-on-your-computer/'
+                    {
+                        link: 'https://www.howtogeek.com/398493/what-exactly-happens-when-you-turn-on-your-computer/',
+                        name: 'Blog'
+                    }
+
                 ]
             },
             {
                 date: '09/02/2020',
-                topic: 'Data Link Layer',
+                topic: 'Networking: Data Link Layer',
                 resources: [
                     
                 ]
@@ -86,100 +114,139 @@ export const discussionList = [
         discussions: [
             {
                 date: '12/08/2019',
-                topic: 'Papers accepted in CVPR 2019',
+                topic: 'CVPR 2019 Papers',
                 resources: [
-                    'http://openaccess.thecvf.com/CVPR2019.py'
+                    {
+                        link: 'http://openaccess.thecvf.com/CVPR2019.py',
+                        name: 'CVPR 2019'
+                    }
                 ]
             },
             {
                 date: '23/08/2019',
-                topic: 'Workshop Papers accepted in ICML ',
+                topic: 'ICML 2019 Workshop Papers',
                 resources: [
-                    'https://icml.cc/Conferences/2019/Schedule?type=Workshop'
+                    {
+                        link: 'https://icml.cc/Conferences/2019/Schedule?type=Workshop',
+                        name: 'Workshop Papers'
+                    }
                 ]
             },
             {
                 date: '28/08/2019',
-                topic: 'Papers accepted in the Main Conference of ICML',
+                topic: 'ICML 2019 Main Conference Papers',
                 resources: [
-                    'https://icml.cc/Conferences/2019/Schedule?type=Poster'
+                    {
+                        link: 'https://icml.cc/Conferences/2019/Schedule?type=Poster',
+                        name: 'Conference Papers'
+                    }
                 ]
             },
             {
                 date: '05/09/2019',
-                topic: 'Various projects done by members in Summer 2019',
+                topic: 'Summer 19 Project Presentations',
                 resources: [
                     
                 ]
             },
             {
                 date: '25/09/2019',
-                topic: 'David Silver Lecture 1 and 2 - Markov Decision Process',
+                topic: 'Markov Decision Process',
                 resources: [
-                    'https://youtu.be/2pWv7GOvuf0'
+                    {
+                        link: 'https://youtu.be/2pWv7GOvuf0',
+                        name: 'Lecture Video'
+                    }
                 ]
             },
             {
                 date: '30/09/2019',
-                topic: 'Chapter-2(Linear Algebra) of Deep Learning Book',
+                topic: 'Linear Algebra (Deep Learning Book)',
                 resources: [
-                    'https://www.deeplearningbook.org/'
+                    {
+                        link: 'https://www.deeplearningbook.org/contents/linear_algebra.html',
+                        name: 'Book Chapter Link'
+                    }
                 ]
             },
             {
                 date: '07/10/2019',
-                topic: 'David Silver Lecture 3 - Planning by Dynammic Programming',
+                topic: 'Planning by Dynammic Programming',
                 resources: [
-                    'https://youtu.be/Nd1-UUMVfz4'
+                    {
+                        link: 'https://youtu.be/Nd1-UUMVfz4',
+                        name: 'Lecture Video'
+                    }
                 ]
             },
             {
                 date: '10/10/2019',
-                topic: 'David Silver Lecture 4 - Model free Prediction',
+                topic: 'Model-Free Prediction',
                 resources: [
-                    'https://youtu.be/PnHCvfgC_ZA'
+                    {
+                        link: 'https://youtu.be/PnHCvfgC_ZA',
+                        name: 'Lecture Video'
+                    }
                 ]
             },
             {
                 date: '16/10/2019',
-                topic: 'Left out topics of Chapter-3 Deep Learning Book',
+                topic: 'Information Theory (Deep Learning Book)',
                 resources: [
-                    'https://www.deeplearningbook.org/'
+                    {
+                        link: 'https://www.deeplearningbook.org/contents/prob.html',
+                        name: 'Chapter Link'
+                    }
                 ]
             },
             {
                 date: '21/10/2019',
-                topic: 'David Silver Lecture 5 - Model Free Control',
+                topic: 'Model Free Control',
                 resources: [
-                    'https://youtu.be/0g4j2k_Ggc4'
+                    {
+                        link: 'https://youtu.be/0g4j2k_Ggc4',
+                        name: 'Lecture Video'
+                    }
                 ]
             },
             {
                 date: '23/10/2019',
                 topic: 'Basic CNN Architectures',
                 resources: [
-                    'https://towardsdatascience.com/cnn-architectures-a-deep-dive-a99441d18049'
+                    {
+                        link: 'https://towardsdatascience.com/cnn-architectures-a-deep-dive-a99441d18049',
+                        name: 'Blog'
+                    }
                 ]
             },
             {
                 date: '01/11/2019',
                 topic: 'David Siver Lecture 6 - Value Function Approximation ',
                 resources: [
-                    'https://youtu.be/UoPei5o4fps'
+                    {
+                        link: 'https://youtu.be/UoPei5o4fps',
+                        name: 'Lecture Video'
+                    }
                 ]
             },
             {
                 date: '06/11/2019',
-                topic: 'Basics of RNN, LSTM, GRUs and Introduction to Transformers',
+                topic: 'RNNs, LSTMs, GRUs and Introduction to Transformers',
                 resources: [
-                    'https://colah.github.io/posts/2015-08-Understanding-LSTMs/'
+                    {
+                        link: 'https://colah.github.io/posts/2015-08-Understanding-LSTMs/',
+                        name: 'Blog'
+                    }
                 ]
             },
             {
                 date: '05/02/2020',
-                topic: 'Basics of Pytorch',
+                topic: 'PyTorch Basics',
                 resources: [
-                    'https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html'
+                    {
+                        link: 'https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html',
+                        name: 'PyTorch Tutorial'
+                    }
                 ]
             },
             {
@@ -193,14 +260,25 @@ export const discussionList = [
                 date: '12/02/2020',
                 topic: 'Regularization Techniques, Dropout, Batch Normalization',
                 resources: [
-                    'https://towardsdatascience.com/regularization-techniques-a-list-down-70df0e8693c',
-                    'https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf',
-                    'https://arxiv.org/abs/1502.03167',
+                    {
+                        link: 'https://towardsdatascience.com/regularization-techniques-a-list-down-70df0e8693c',
+                        name: 'Blog'
+                    },
+                    
+                    {
+                        link: 'https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf',
+                        name: 'Dropout Paper'
+                    },
+                    
+                    {
+                        link: 'https://arxiv.org/abs/1502.03167',
+                        name: 'BatchNorm Paper'
+                    },
                 ]
             },
             {
                 date: '14/02/2020',
-                topic: 'Papers accepted in recent tier-1 conferences',
+                topic: 'Recent Tier-1 Conferences\' Paper Discussions',
                 resources: [
                     
                 ]
@@ -209,8 +287,14 @@ export const discussionList = [
                 date: '19/02/2020',
                 topic: 'RCNN and Fast RCNN',
                 resources: [
-                    'https://arxiv.org/abs/1311.2524',
-                    'https://arxiv.org/abs/1504.08083'
+                    {
+                        link: 'https://arxiv.org/abs/1311.2524',
+                        name: 'RCNN Paper'
+                    },
+                    {
+                        link: 'https://arxiv.org/abs/1504.08083',
+                        name: 'Fast RCNN Paper'
+                    }
                 ]
             },
             {
@@ -224,9 +308,18 @@ export const discussionList = [
                 date: '25/02/2020',
                 topic: 'Faster RCNN, Mask RCNN and YOLO',
                 resources: [
-                    'https://arxiv.org/abs/1506.01497',
-                    'https://arxiv.org/abs/1703.06870',
-                    'https://arxiv.org/abs/1506.02640'
+                    {
+                        link: 'https://arxiv.org/abs/1506.01497',
+                        name: 'Faster RCNN Paper'
+                    },
+                    {
+                        link: 'https://arxiv.org/abs/1703.06870',
+                        name: 'Mask RCNN Paper'
+                    },
+                    {
+                        link: 'https://arxiv.org/abs/1506.02640',
+                        name: 'YOLO Paper'
+                    }
                 ]
             },
         ]
