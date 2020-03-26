@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0a833d28e09c76222fc8885f307e5626",
+    "revision": "cb66888bb70c6a12ec28039a8aa3d221",
     "url": "/ACMTest/index.html"
   },
   {
-    "revision": "3a87c7f2e928c6850356",
+    "revision": "be56e2e1edd8ecee6391",
     "url": "/ACMTest/static/css/2.48be9feb.chunk.css"
   },
   {
-    "revision": "3f633b209996102702e6",
-    "url": "/ACMTest/static/css/main.8b537777.chunk.css"
+    "revision": "c02d214f0019ed78d3f7",
+    "url": "/ACMTest/static/css/main.8703d3db.chunk.css"
   },
   {
-    "revision": "3a87c7f2e928c6850356",
-    "url": "/ACMTest/static/js/2.a7b46359.chunk.js"
+    "revision": "be56e2e1edd8ecee6391",
+    "url": "/ACMTest/static/js/2.99584218.chunk.js"
   },
   {
     "revision": "eff3b4d7e4bb0087ce53139cd90bc880",
-    "url": "/ACMTest/static/js/2.a7b46359.chunk.js.LICENSE.txt"
+    "url": "/ACMTest/static/js/2.99584218.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f633b209996102702e6",
-    "url": "/ACMTest/static/js/main.4d949eaa.chunk.js"
+    "revision": "c02d214f0019ed78d3f7",
+    "url": "/ACMTest/static/js/main.16ac0b89.chunk.js"
   },
   {
     "revision": "4cc1a5d494756721fd7a",
@@ -32,12 +32,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/aarush.8fb68467.jpeg"
   },
   {
-    "revision": "cf38c28bcd1486637081bcbc193ba510",
-    "url": "/ACMTest/static/media/amajaiswal.cf38c28b.jpg"
+    "revision": "40933590c3fe80971928fe92d46226aa",
+    "url": "/ACMTest/static/media/akshat.40933590.jpeg"
   },
   {
-    "revision": "4be921be18cc6e7fa6ba54e7f9109879",
-    "url": "/ACMTest/static/media/amanverma.4be921be.jpg"
+    "revision": "cf38c28bcd1486637081bcbc193ba510",
+    "url": "/ACMTest/static/media/aman-jaiswal.cf38c28b.jpg"
+  },
+  {
+    "revision": "a59a7a6497697eb8f37bf42eac3d1a07",
+    "url": "/ACMTest/static/media/aman-verma.a59a7a64.jpeg"
+  },
+  {
+    "revision": "7016737d4d6e7f21b5c2ad81fd8a8abe",
+    "url": "/ACMTest/static/media/aniket-agarwal.7016737d.jpg"
+  },
+  {
+    "revision": "0a27ce533b9b83cb36a9b5cd23c3b69c",
+    "url": "/ACMTest/static/media/anmolkhem.0a27ce53.jpeg"
+  },
+  {
+    "revision": "50858c153a50312f030826888a205fe9",
+    "url": "/ACMTest/static/media/aryaman.50858c15.jpeg"
   },
   {
     "revision": "f0f84781bc6635325101727d7ddfe286",
@@ -60,8 +76,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/deepl.d5c55e5b.jpg"
   },
   {
-    "revision": "96412cbc48823b37cd80b0dc5d1676e2",
-    "url": "/ACMTest/static/media/dikshachaudhary.96412cbc.jpg"
+    "revision": "479481c7befbbf2a6fabe100628d93cc",
+    "url": "/ACMTest/static/media/dikshachaudhary.479481c7.jpg"
   },
   {
     "revision": "dd6d72a4a0f66cc23a1e0c733a344664",
@@ -116,6 +132,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/event9.cc01925d.jpg"
   },
   {
+    "revision": "bc5eb80251dda8bc0615a8fd64182755",
+    "url": "/ACMTest/static/media/full-team.bc5eb802.jpg"
+  },
+  {
     "revision": "bccbd604b7b8ecfd87a0a9ebc9a4d571",
     "url": "/ACMTest/static/media/game.bccbd604.png"
   },
@@ -124,20 +144,36 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/game1.35ebb172.jpg"
   },
   {
-    "revision": "e773df3dd7129cad7bc77d85384a8597",
-    "url": "/ACMTest/static/media/ghanshyam.e773df3d.jpg"
+    "revision": "4104d909cfdbb0528514f16b81d4acc7",
+    "url": "/ACMTest/static/media/ghetia.4104d909.jpg"
+  },
+  {
+    "revision": "d5c2595a894e9090c0dbded6d057dd15",
+    "url": "/ACMTest/static/media/gopi-kishan.d5c2595a.jpeg"
+  },
+  {
+    "revision": "0b95c9cf61df9ce5d1e1b8181368a7fa",
+    "url": "/ACMTest/static/media/gyanvaibhav.0b95c9cf.jpg"
   },
   {
     "revision": "242bb8bddbc6d4abf8f42306acc6f4ad",
     "url": "/ACMTest/static/media/home-test.242bb8bd.svg"
   },
   {
-    "revision": "06cc0c77e0ce41bfcbe4852d5fe46ace",
-    "url": "/ACMTest/static/media/karansingh.06cc0c77.jpeg"
+    "revision": "667cfa276a882945be2840d2757f5875",
+    "url": "/ACMTest/static/media/karansingh.667cfa27.jpg"
   },
   {
     "revision": "5f9947272452d318f80e92cccf75cec1",
     "url": "/ACMTest/static/media/logo.5f994727.svg"
+  },
+  {
+    "revision": "dc4edeaec8adce5faf1f4032964bae22",
+    "url": "/ACMTest/static/media/mansi.dc4edeae.jpg"
+  },
+  {
+    "revision": "e8885c93702f37003ca7532e8c124fa8",
+    "url": "/ACMTest/static/media/masih.e8885c93.jpg"
   },
   {
     "revision": "191cc9f50f3b76b9617cb383f19acb7d",
@@ -292,8 +328,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/osdev.2d2394a0.jpg"
   },
   {
-    "revision": "1e7dfb84f3d5bf3bf52d3eb59e845000",
-    "url": "/ACMTest/static/media/patra.1e7dfb84.jpeg"
+    "revision": "73c8395b394e0a4f2169fcb8e7e19d77",
+    "url": "/ACMTest/static/media/patra.73c8395b.jpeg"
+  },
+  {
+    "revision": "e773df3dd7129cad7bc77d85384a8597",
+    "url": "/ACMTest/static/media/pranavraj.e773df3d.jpg"
+  },
+  {
+    "revision": "d939c93c98feb6d86ab31e7b0cb3d16c",
+    "url": "/ACMTest/static/media/priyanshagarwal.d939c93c.jpg"
   },
   {
     "revision": "708378a050f432ca4fb751c19a00d61d",
@@ -304,15 +348,39 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/quantu.76215e5d.jpg"
   },
   {
+    "revision": "448df9520bcc401baaee9b9f120992bc",
+    "url": "/ACMTest/static/media/rahul.448df952.jpeg"
+  },
+  {
+    "revision": "5dda4065daf813000e6eba58b52f9d09",
+    "url": "/ACMTest/static/media/rahulaggarwal.5dda4065.jpg"
+  },
+  {
+    "revision": "d23662fb8673290c17306e229c688976",
+    "url": "/ACMTest/static/media/rishi.d23662fb.jpg"
+  },
+  {
     "revision": "43abe841874ff7fc352d1f21c0d2d8bc",
     "url": "/ACMTest/static/media/roodram.43abe841.jpg"
   },
   {
-    "revision": "92c14f68b167d5b63c223b3c6e2e4dee",
-    "url": "/ACMTest/static/media/wave.92c14f68.svg"
+    "revision": "5943d5ac174a6bdd53dcca96b5cacced",
+    "url": "/ACMTest/static/media/sachin.5943d5ac.jpeg"
   },
   {
-    "revision": "c681557c564e8dc5fd102a1febf43ff5",
-    "url": "/ACMTest/static/media/wave_inverse.c681557c.svg"
+    "revision": "68dc6e827f25a6c4d8a2f6a7082024f0",
+    "url": "/ACMTest/static/media/siddhant.68dc6e82.jpg"
+  },
+  {
+    "revision": "0c3226c538321bc85b554c254c55f3e1",
+    "url": "/ACMTest/static/media/suraajks.0c3226c5.jpg"
+  },
+  {
+    "revision": "a9046cc15239a3a78042343a6b53167a",
+    "url": "/ACMTest/static/media/vipul.a9046cc1.jpg"
+  },
+  {
+    "revision": "92c14f68b167d5b63c223b3c6e2e4dee",
+    "url": "/ACMTest/static/media/wave.92c14f68.svg"
   }
 ]);
