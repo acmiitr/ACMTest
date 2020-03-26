@@ -9,14 +9,14 @@ const BlogCard = props => {
             <Card.Img variant="top" src={props.blog.image}/>
             <Card.Body>
                 <Card.Title>{props.blog.title}</Card.Title>
-                <Card.Text>
+
                 <div className="blog-date mb-2">{props.blog.date}</div>
                 <div className="blog-text mb-2">{props.blog.text}</div>
                 <div className="blog-author">By {props.blog.author}</div>
-                </Card.Text>
+                
                 
             </Card.Body>
-            <Button variant="primary" href={"https://medium.com/@deepanshnagaria/basic-number-theory-451d73d4d57f"}>Follow Link</Button>
+            <Button variant="primary" href={props.blog.link}>Follow Link</Button>
         </Card>
     )
 }

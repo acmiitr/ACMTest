@@ -30,7 +30,7 @@ export const blogList = [
         text: 'From the ancient times, the transfer of the information from one place to another securely was the great challenge. Cryptography is not a new term. The concepts of cryptography had also been...',
         author: 'Prateek Roushan',
         image: Crypto,
-        link: 'https://medium.com/@deepanshnagaria/introduction-to-cryotography-db00920ed302'
+        link: 'https://medium.com/@acmiitr/introduction-to-cryptography-ac274100369d'
     },
     {
         title: 'Intro to Competitive Programming',
@@ -38,7 +38,7 @@ export const blogList = [
         text: 'Many of you might have heard about the term Competitive Programming and would have wondered what it actually means. I am writing this blog to provide a brief intro to it as well as tell you about the requirements to start pursuing it.',
         author: 'Vinay Aggarwal',
         image: Compe,
-        link: 'https://medium.com/@deepanshnagaria/intro-to-competitive-programming-6ac5eebcc0c2',
+        link: 'https://medium.com/@acmiitr/intro-to-competitive-programming-be194f1c8cb2',
     },
     {
         title: 'Basic Number Theory',
@@ -46,7 +46,7 @@ export const blogList = [
         text: 'A lecture(sorta) on basic number theory and lets you know how to proeced forward.',
         author: 'Vinay Aggarwal',
         image: Number,
-        link: 'https://medium.com/@deepanshnagaria/basic-number-theory-451d73d4d57f'
+        link: 'https://medium.com/@acmiitr/basic-number-theory-6b5e0d0099e0'
     },
     {
         title: 'Guide to Deep Learning',

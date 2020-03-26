@@ -23,15 +23,24 @@ export const FooterComponent = props => {
                 <Button variant={"secondary"} href={"https://github.com/acmiitr/"} target="blank">
                 <i className="fa fa-github-square"></i>
                 </Button>
+                <Button variant={"secondary"} href={"mailto:acmiitr@gmail.com"} target="blank">
+                <i className="fa fa-envelope"></i>
+                </Button>
                 <Button variant={"secondary"} href={"https://www.linkedin.com/company/acmiitr/"} target="blank">
                 <i className="fa fa-linkedin"></i>
                 </Button>
+                <Button variant={"secondary"} href={"https://medium.com/@acmiitr"} target="blank">
+                <i className="fa fa-medium"></i>
+                </Button>
+                <Button variant={"secondary"} href={"https://twitter.com/acmiitr"} target="blank">
+                <i className="fa fa-twitter"></i>
+                </Button>
             </div>
             <div style={{margin: 'auto'}} className="text-center w-75 d-block d-md-none  text-center">
-                IIT Roorkee ACM Student Chapter is an official student body incepted in 2014 under the CSE dept, IIT Roorkee.
+            The IIT Roorkee ACM Student Chapter is an official open student body under the aegis of the Student Technical Council, IIT Roorkee. 
             </div>
             <div style={{margin: 'auto'}} className="text-center w-50 d-none d-md-block text-center">
-            The IIT Roorkee ACM Student Chapter is an official student body incepted in 2014 under the aegis of Department of Computer Science and Engineering, IIT Roorkee.
+            The IIT Roorkee ACM Student Chapter is an official open student body under the aegis of the Student Technical Council, IIT Roorkee. 
             </div>
             <div style={{margin: 'auto'}} className="text-center w-75 d-none d-md-block text-center text-muted">
                 Made with &hearts; by Rahul

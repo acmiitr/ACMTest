@@ -17,7 +17,7 @@ const BearerMemberCard = props => {
                 </div>
                 <div className="field pro-field flex-grow-1">
                     <span>Slack ID</span>
-                    <span>{props.member.slack}</span>
+                    <span>@{props.member.slack}</span>
                 </div>
                 <div className="bearer-member-social d-flex flex-row justify-content-around">
                 <ButtonGroup aria-label="Basic example">

@@ -23,7 +23,7 @@ export const teamList = {
             fb: 'neelagrawal08',
             mail: 'dagrawal@cs.iitr.ac.in',
             image: dakshit,
-            slack: 'neelagrawal08'
+            slack: 'dk'
         },
         {
             name: 'Aarush Gupta',
@@ -32,7 +32,7 @@ export const teamList = {
             fb: 'aarush.363',
             mail: 'agupta1@cs.iitr.ac.in',
             image: aarush,
-            slack: 'aarush98'
+            slack: 'aarush'
         },
         {
             name: 'Aniruddha Mahpatra',
@@ -41,7 +41,7 @@ export const teamList = {
             fb: 'aniruddha.mahapatra',
             mail: 'amahapatra@cs.iitr.ac.in',
             image: patra,
-            slack: 'aniruddha26398'
+            slack: 'animax'
         }
     ],
     heads: [
@@ -52,7 +52,7 @@ export const teamList = {
             mail: 'sachinjain3677@gmail.com',
             github: 'sachinjain3677',
             image: sachin,
-            slack: 'sachinjain3677'
+            slack: 'sachin'
         },
         {
             name: 'Vipul Jain',
@@ -61,7 +61,7 @@ export const teamList = {
             mail: 'vjain@cs.iitr.ac.in',
             github: 'VipulJai',
             image: vipul,
-            slack: 'jain.vipul2498'
+            slack: 'vipul'
         },
         {
             name: 'Aryaman Maheshwari',
@@ -70,7 +70,7 @@ export const teamList = {
             mail: 'amaheshwari1@cs.iitr.ac.in',
             github: 'vaham-7',
             image: aryaman,
-            slack: 'here.is.aryaman'
+            slack: 'vaham7'
         },
         {
             name: 'Rahul Singh',
@@ -79,7 +79,7 @@ export const teamList = {
             mail: 'sachinjain3677@gmail.com',
             github: 'Rsingh2805',
             image: rahul,
-            slack: 'rs280599'
+            slack: 'r_sin'
         },
         {
             name: 'Akshat Arora',
@@ -88,7 +88,7 @@ export const teamList = {
             fb: 'akshataroraarora.arora',
             mail: 'aarora@cs.iitr.ac.in',
             image: akshat,
-            slack: 'akshatarora826'
+            slack: 'akshat'
         }
     ],
 }

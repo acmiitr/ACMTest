@@ -9,12 +9,12 @@ const TimeLine = props => {
             <div className="page">
                 <div className="timeline">
                     {
-                        eventList.map((year, i) => {
+                        eventList.reverse().map((year, i) => {
                             return (
                                 <div className={"timeline__group"} key={i}>
                                     <span className="timeline__year">{year.year}</span>
                                     {
-                                        year.events.map((event, j) => {
+                                        year.events.reverse().map((event, j) => {
                                             return (
                                                 <div onClick={()=>{props.setEvent(event)}} key={j} className="timeline__box pointer">
                                                     <div className="timeline__date">
@@ -44,7 +44,7 @@ const HorizontalTimeLine = props => {
     return (
         <ButtonGroup id="horizontal-timeline" className="position-absolute d-md-none">
             {
-                eventList.map((year,i) => {
+                eventList.reverse().map((year,i) => {
                     return (
                         year.events.map((event, j)=> {
                             return (
@@ -91,9 +91,10 @@ export const EventComponent = props => {
             <div id="event-container" className="px-5">
                 <Row className="full-height">
                     <Col id="event-details" className="full-height bg-image py-5 pr-4 position-relative" style={{backgroundImage: `linear-gradient(to left, rgba(28, 46, 76, 0.9), rgba(33, 147, 176, 0.6)),url(${event.img})`}}>
-                        <h4 className="pb-4">{event.heading}</h4>
-                        {event.subtitle}
                         <small>{getWhen(event)}</small>
+                        <h4 className="pt-4 pb-4">{event.heading}</h4>
+                        {event.subtitle}
+                        
                         <HorizontalTimeLine event={event} setEvent={setEvent}/>
                     </Col>
                     <Col className="full-height py-2 position-relative d-none d-md-block">

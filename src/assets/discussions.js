@@ -1,6 +1,6 @@
 export const discussionList = [
     {
-        holder: 'ACM',
+        holder: 'OS',
         discussions: [
             {
                 date: '05/09/2019',
@@ -12,6 +12,42 @@ export const discussionList = [
                     }
                 ]
             },
+            {
+                date: '28/09/2019',
+                topic: 'Assembly Language: Overview',
+                resources: [
+                    {
+                        link: 'http://www.brokenthorn.com/Resources/OSDevIndex.html',
+                        name: 'Blog'
+                    }
+                ]
+            },
+            {
+                date: '09/10/2019',
+                topic: 'Bootloaders',
+                resources: [
+                    {
+                        link: 'http://www.brokenthorn.com/Resources/OSDevIndex.html',
+                        name: 'Blog'
+                    }
+                ]
+            },
+            {
+                date: '05/02/2020',
+                topic: 'OS Development - Bootloader',
+                resources: [
+                    {
+                        link: 'https://www.howtogeek.com/398493/what-exactly-happens-when-you-turn-on-your-computer/',
+                        name: 'Blog'
+                    }
+
+                ]
+            },
+        ]
+    },
+    {
+        holder: 'Networks',
+        discussions: [
             {
                 date: '06/09/2019',
                 topic: 'Bandit: Levels 1-10',
@@ -33,32 +69,12 @@ export const discussionList = [
                 ]
             },
             {
-                date: '28/09/2019',
-                topic: 'Assembly Language: Overview',
-                resources: [
-                    {
-                        link: 'http://www.brokenthorn.com/Resources/OSDevIndex.html',
-                        name: 'Blog'
-                    }
-                ]
-            },
-            {
                 date: '02/10/2019',
                 topic: 'Bandit: Levels 15-22',
                 resources: [
                     {
                         link: 'https://overthewire.org/wargames/bandit/',
                         name: 'Bandit Wargame'
-                    }
-                ]
-            },
-            {
-                date: '09/10/2019',
-                topic: 'Bootloaders',
-                resources: [
-                    {
-                        link: 'http://www.brokenthorn.com/Resources/OSDevIndex.html',
-                        name: 'Blog'
                     }
                 ]
             },
@@ -87,17 +103,6 @@ export const discussionList = [
                 topic: 'Basics of Networking',
                 resources: [
                     
-                ]
-            },
-            {
-                date: '05/02/2020',
-                topic: 'OS Development - Bootloader',
-                resources: [
-                    {
-                        link: 'https://www.howtogeek.com/398493/what-exactly-happens-when-you-turn-on-your-computer/',
-                        name: 'Blog'
-                    }
-
                 ]
             },
             {

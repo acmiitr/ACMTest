@@ -40,7 +40,9 @@ export const HomeComponent = (props) => {
 
     return (
         <React.Fragment >
-            <div className="wave-bg" style={{backgroundImage: `url(${Wave})`}}>
+            
+            <div className="wave-bg position-relative" style={{backgroundImage: `url(${Wave})`}}>
+            <div className="position-absolute" style={{bottom: "5%"}} ref={el => {events = el;}}></div>
                 <Container className="landing-area px-2 px-md-5">
                 <Row className="position-relative">
                     {/* <i className="position-absolute scroll-icon text-muted text-center fa fa-angle-double-down"></i> */}
@@ -54,7 +56,7 @@ export const HomeComponent = (props) => {
                             <Button onClick={scrollDown} variant={"outline-secondary"}>Know more</Button>
                         </div>
                         <div className={"text-center mt-4 d-block d-md-none"}>
-                            <img src={Test} alt="logo" width={250} />
+                            <img src={Test} alt="logo" width={250} style={{width: '75%', height: 'auto'}}/>
                         </div>
                     </Col>
                     <Col xs={12} md={5} className={"text-center mb-3 d-none d-md-block"}>
@@ -89,7 +91,7 @@ export const HomeComponent = (props) => {
                     </Row>
                 </Container>                
             </div> */}
-            <div className="gray-back pb-5" ref={el => {events = el;}} >
+            <div className="gray-back pb-5"  >
                 <Container>
                     <h3 className="pt-5 pb-3 d-flex justify-content-between">
                         <span>Events</span>
