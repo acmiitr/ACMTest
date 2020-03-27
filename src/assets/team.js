@@ -41,7 +41,8 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "",
+            "slack": "animax"
           },
           {
             "name": "Aarush Gupta",
@@ -52,7 +53,8 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "",
+            "slack": "aarush"
           },
           {
             "name": "Dakshit Agrawal",
@@ -63,7 +65,8 @@ export const teamList = {
             "website": "https://dakshitagrawal97.github.io/",
             "linkedin": "https://www.linkedin.com/in/dakshit97/",
             "twitter": "@dakshit_97",
-            "position": ""
+            "position": "",
+            "slack": "dk"
           }
     ],
     heads: [
@@ -76,7 +79,8 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "",
+            "slack": "akshat"
           },
           {
             "name": "Aryaman Maheshwari",
@@ -87,7 +91,8 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "",
+            "slack": "vaham7"
           },
           {
             "name": "Rahul Singh",
@@ -98,7 +103,8 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "",
+            "slack": "r_sin"
           },
           {
             "name": "Sachin Jain",
@@ -109,7 +115,8 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "",
+            "slack": "sachin"
           },
           {
             "name": "Vipul Jain",
@@ -120,7 +127,8 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "",
+            "slack": "vipul"
           },
     ],
     members: [

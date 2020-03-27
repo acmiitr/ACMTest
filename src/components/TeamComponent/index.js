@@ -105,9 +105,9 @@ export const TeamComponent = props => {
                 {
                     teamList['bearers'].map((obj, i) => { 
                         return (
-                            <Col key={i} xs={4} sm={3} lg={2} style={{padding: 0}} className="py-2">
-                                {/* <BearerMemberCard member={obj} key={i}/> */}
-                                <NewDemoCard member={obj}/>
+                            <Col key={i} xs={12} sm={6} lg={4} style={{padding: 0}} className="py-2">
+                                <BearerMemberCard member={obj} key={i}/>
+                                {/* <NewDemoCard member={obj}/> */}
                             </Col>
                         )
                     })
@@ -118,18 +118,18 @@ export const TeamComponent = props => {
                 {
                     teamList['heads'].map((obj, i) => {
                         return (
-                            <Col key={i} xs={4} sm={3} lg={2} style={{padding: 0}} className="py-2">
-                                {/* <BearerMemberCard member={obj} key={i}/> */}
-                                <NewDemoCard member={obj}/>
+                            <Col key={i} xs={12} sm={6} lg={4} style={{padding: 0}} className="py-2">
+                                <BearerMemberCard member={obj} key={i}/>
+                                {/* <NewDemoCard member={obj}/> */}
                             </Col>
                         )
                     })
                 }
             </Row>
-            <h3 className="mt-4 text-center">Members</h3>
+            {/* <h3 className="mt-4 text-center mb-2">Members</h3> */}
             <Row className={"justify-content-md-center mb-4"}>
                 {
-                    teamList['members'].map((obj, i) => {
+                    teamList['members'].filter(member => false).map((obj, i) => {
                         return (
                             <Col key={i} xs={4} sm={3} lg={2} style={{padding: 0}} className="">
                                 {/* <BearerMemberCard member={obj} key={i}/> */}

@@ -57,108 +57,17 @@ export const homeEventList = [
 
 export const eventList = [
     {
-        year: 2018,
-        events: [
-            {
-                img: Event1, 
-                heading: 'ESP - Semantic Understanding of User Queries', 
-                subtitle: <React.Fragment>
-                        <p>
-                        {`Eminent Speaker Program (ESP) talk by Manoj Agarwal, Principal Applied Scientist at the AI & Research team in Microsoft India.`}
-                        </p>
-                        <p className="font-weight-bold">
-                            "How knowledge graphs and Deep learning techniques are helping!"
-                        </p>
-                    </React.Fragment>,
-                date: '7',
-                month: "AUG"
-            },
-            {
-                img: Event3, 
-                heading: 'Talk - Microsoft Code.Fun.Do (CFD)', 
-                subtitle: <React.Fragment>
-                    <p>
-                        Bootcamp organized before the Microsoft Code.Fun.Do hackathon.
-                    </p>
-                    <p>
-                        Primary goal was to make students aware of various Microsoft Azure Technologies and software applications.
-                    </p>
-                </React.Fragment>,
-                date: "27",
-                month: 'OCT',
-            },
-        ]
-    },
-    {
-        year: 2019,
-        events: [
-            {
-                img: Event8,
-                heading: 'Talk - Introduction to ACM',
-                subtitle: <React.Fragment>
-                    <p>
-                    Talk to introduce the IITR students to our group and to ACM as a global organization. We also cleared some misconceptions about our group and displayed our alumni relations. 
-                    </p>
-                </React.Fragment>,
-                date: '26',
-                month: 'AUG'
-            },
-            {
-                img: Event4,
-                heading: 'Hackathon - Major League Hacking: Local Hack Day',
-                subtitle: <React.Fragment>
-                    <div>Learn C# with Unity</div>
-                    <div>Intro to Python Skills for AI</div>
-                    <div>IBM Z workshop</div>
-                    <p>Hacking with Amazon Alexa</p>
-                </React.Fragment>,
-                date: '12',
-                month: 'OCT'
-            },
-        ]
-    },
-    {
         year: 2020,
         events: [
             {
-                img: Event12,
-                heading: 'Talk - VLG Recruitments',
-                subtitle: <React.Fragment>
-                    Gave a brief introduction to Vision and Language Group (VLG) and it’s activities. Covered topics about how the core team of group functions and what benefits one can get on joining the core team.
-                </React.Fragment>,
-                date: '23',
-                month: 'JAN'
-            },
-            {
-                img: Event7,
-                heading: 'Workshop - Neural Style Transfer',
+                img: Event11,
+                heading: 'Workshop - File Systems (FAT12)',
                 subtitle: <React.Fragment>
                     <p>
-                    Covered the basics of Convolutional Neural Networks, Gram Matrices, and the concept of Neural Style Transfer along with live coding session on google colab.
+                    Gave an introduction to operating systems, followed by an explanation of the FAT12 file system in detail and studying the hex file of a filesystem.
                     </p>
                 </React.Fragment>,
-                date: '28',
-                month: 'JAN'
-            },
-            {
-                img: Event9,
-                heading: 'Talk - Intro to CS & ACM Recruitments',
-                subtitle: <React.Fragment>
-                    <p>
-                    Presented some of the fascinating applications of different fields of Computer Science. Also talked about our recruitment process and the things we desire from people who wish to join our core team.
-                    </p>
-                </React.Fragment>,
-                date: '13',
-                month: 'FEB'
-            },
-            {
-                img: Event6,
-                heading: 'Workshop - Socket Programming',
-                subtitle: <React.Fragment>
-                    <p className="font-weight-bold font-weight-italic">"Build your own Client-Server Chatroom"</p>
-                    <p>Covered basics of socket programming in C++ and made a single-threaded client-server chat application using TCP protocol.</p>
-                </React.Fragment>,
-                date: '14',
+                date: '20',
                 month: 'FEB'
             },
             {
@@ -173,16 +82,110 @@ export const eventList = [
                 month: 'FEB'
             },
             {
-                img: Event11,
-                heading: 'Workshop - File Systems (FAT12)',
+                img: Event6,
+                heading: 'Workshop - Socket Programming',
                 subtitle: <React.Fragment>
-                    <p>
-                    Gave an introduction to operating systems, followed by an explanation of the FAT12 file system in detail and studying the hex file of a filesystem.
-                    </p>
+                    <p className="font-weight-bold font-weight-italic">"Build your own Client-Server Chatroom"</p>
+                    <p>Covered basics of socket programming in C++ and made a single-threaded client-server chat application using TCP protocol.</p>
                 </React.Fragment>,
-                date: '20',
+                date: '14',
                 month: 'FEB'
             },
+            {
+                img: Event9,
+                heading: 'Talk - Intro to CS & ACM Recruitments',
+                subtitle: <React.Fragment>
+                    <p>
+                    Presented some of the fascinating applications of different fields of Computer Science. Also talked about our recruitment process and the things we desire from people who wish to join our core team.
+                    </p>
+                </React.Fragment>,
+                date: '13',
+                month: 'FEB'
+            },
+            {
+                img: Event7,
+                heading: 'Workshop - Neural Style Transfer',
+                subtitle: <React.Fragment>
+                    <p>
+                    Covered the basics of Convolutional Neural Networks, Gram Matrices, and the concept of Neural Style Transfer along with live coding session on google colab.
+                    </p>
+                </React.Fragment>,
+                date: '28',
+                month: 'JAN'
+            },
+            {
+                img: Event12,
+                heading: 'Talk - VLG Recruitments',
+                subtitle: <React.Fragment>
+                    Gave a brief introduction to Vision and Language Group (VLG) and it’s activities. Covered topics about how the core team of group functions and what benefits one can get on joining the core team.
+                </React.Fragment>,
+                date: '23',
+                month: 'JAN'
+            }          
         ]
-    }
+    },
+    {
+        year: 2019,
+        events: [
+            {
+                img: Event4,
+                heading: 'Hackathon - Major League Hacking: Local Hack Day',
+                subtitle: <React.Fragment>
+                    <div>Learn C# with Unity</div>
+                    <div>Intro to Python Skills for AI</div>
+                    <div>IBM Z workshop</div>
+                    <p>Hacking with Amazon Alexa</p>
+                </React.Fragment>,
+                date: '12',
+                month: 'OCT'
+            },
+            {
+                img: Event8,
+                heading: 'Talk - Introduction to ACM',
+                subtitle: <React.Fragment>
+                    <p>
+                    Talk to introduce the IITR students to our group and to ACM as a global organization. We also cleared some misconceptions about our group and displayed our alumni relations. 
+                    </p>
+                </React.Fragment>,
+                date: '26',
+                month: 'AUG'
+            }            
+        ]
+    },
+    {
+        year: 2018,
+        events: [
+            {
+                img: Event3, 
+                heading: 'Talk - Microsoft Code.Fun.Do (CFD)', 
+                subtitle: <React.Fragment>
+                    <p>
+                        Bootcamp organized before the Microsoft Code.Fun.Do hackathon.
+                    </p>
+                    <p>
+                        Primary goal was to make students aware of various Microsoft Azure Technologies and software applications.
+                    </p>
+                </React.Fragment>,
+                date: "27",
+                month: 'OCT',
+            },
+            {
+                img: Event1, 
+                heading: 'ESP - Semantic Understanding of User Queries', 
+                subtitle: <React.Fragment>
+                        <p>
+                        {`Eminent Speaker Program (ESP) talk by Manoj Agarwal, Principal Applied Scientist at the AI & Research team in Microsoft India.`}
+                        </p>
+                        <p className="font-weight-bold">
+                            "How knowledge graphs and Deep learning techniques are helping!"
+                        </p>
+                    </React.Fragment>,
+                date: '7',
+                month: "AUG"
+            },
+            
+        ]
+    },
+    
+    
 ]

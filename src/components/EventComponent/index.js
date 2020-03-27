@@ -9,12 +9,12 @@ const TimeLine = props => {
             <div className="page">
                 <div className="timeline">
                     {
-                        eventList.reverse().map((year, i) => {
+                        eventList.map((year, i) => {
                             return (
                                 <div className={"timeline__group"} key={i}>
                                     <span className="timeline__year">{year.year}</span>
                                     {
-                                        year.events.reverse().map((event, j) => {
+                                        year.events.map((event, j) => {
                                             return (
                                                 <div onClick={()=>{props.setEvent(event)}} key={j} className="timeline__box pointer">
                                                     <div className="timeline__date">
@@ -44,7 +44,7 @@ const HorizontalTimeLine = props => {
     return (
         <ButtonGroup id="horizontal-timeline" className="position-absolute d-md-none">
             {
-                eventList.reverse().map((year,i) => {
+                eventList.map((year,i) => {
                     return (
                         year.events.map((event, j)=> {
                             return (
