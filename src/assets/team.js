@@ -33,31 +33,32 @@ import rahulagarwal from './../assets/images/team/rahulaggarwal.jpg';
 export const teamList = {
     bearers: [
         {
-            "name": "Aniruddha Mahapatra",
+            "first_name": "Aniruddha",
+            "last_name": "Mahapatra",
             "mail": "amahapatra@cs.iitr.ac.in",
             "github": "anime26398",
             "fb": "aniruddha.mahapatra",
+            "position": "Chair",
             "image": patra,
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "",
-            "slack": "animax"
           },
           {
-            "name": "Aarush Gupta",
+            "first_name": "Aarush",
+            "last_name": "Gupta",
             "mail": "agupta1@cs.iitr.ac.in",
             "github": "aarushgupta",
+            "position": "Vice Chair",
             "fb": "aarush.363",
             "image": aarush,
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "",
-            "slack": "aarush"
           },
           {
-            "name": "Dakshit Agrawal",
+            "first_name": "Dakshit",
+            "last_name": "Agrawal",
             "mail": "dagrawal@cs.iitr.ac.in",
             "github": "dakshitagrawal97",
             "fb": "neelagrawal08",
@@ -65,13 +66,13 @@ export const teamList = {
             "website": "https://dakshitagrawal97.github.io/",
             "linkedin": "https://www.linkedin.com/in/dakshit97/",
             "twitter": "@dakshit_97",
-            "position": "",
-            "slack": "dk"
+            "position": "Treasurer"
           }
     ],
     heads: [
         {
-            "name": "Akshat Arora",
+            "first_name": "Akshat",
+            "last_name": "Arora",
             "mail": "aarora@cs.iitr.ac.in",
             "github": "AkshatArora",
             "fb": "akshataroraarora.arora",
@@ -79,11 +80,11 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "",
-            "slack": "akshat"
+            "position": "Backend Head"
           },
           {
-            "name": "Aryaman Maheshwari",
+            "first_name": "Aryaman",
+            "last_name": "Maheshwari",
             "mail": "amaheshwari1@cs.iitr.ac.in",
             "github": "vaham-7",
             "fb": "aryaman.maheshwari.7",
@@ -91,11 +92,11 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "",
-            "slack": "vaham7"
+            "position": "Events Head"
           },
           {
-            "name": "Rahul Singh",
+            "first_name": "Rahul",
+            "last_name": "Singh",
             "mail": "rsingh@cs.iitr.ac.in",
             "github": "Rsingh2805",
             "fb": "rahul.singh.280599",
@@ -103,11 +104,11 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "",
-            "slack": "r_sin"
+            "position": "Web Dev Lead"
           },
           {
-            "name": "Sachin Jain",
+            "first_name": "Sachin",
+            "last_name": "Jain",
             "mail": "sachinjain3677@gmail.com",
             "github": "sachinjain3677",
             "fb": "",
@@ -115,11 +116,11 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "",
-            "slack": "sachin"
+            "position": "OS discussions lead"
           },
           {
-            "name": "Vipul Jain",
+            "first_name": "Vipul",
+            "last_name": "Jain",
             "mail": "vjain@cs.iitr.ac.in",
             "github": "VipulJai",
             "fb": "vipul.ja1n",
@@ -127,13 +128,13 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "",
-            "slack": "vipul"
+            "position": "Networks discussion lead"
           },
     ],
     members: [
         {
-            "name": "Aaryan Jain",
+            "first_name": "Aaryan",
+            "last_name": "Jain",
             "mail": "ajain@cs.iitr.ac.in",
             "github": "aary0510",
             "fb": "Aary0510",
@@ -144,7 +145,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Aman Jaiswal",
+            "first_name": "Aman",
+            "last_name": "Jaiswal",
             "mail": "ajaiswal@cs.iitr.ac.in",
             "github": "jaiswalaman",
             "fb": "amanjaiswal815",
@@ -155,18 +157,20 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Aman Verma",
+            "first_name": "Aman",
+            "last_name": "Verma",
             "mail": "averma@cs.iitr.ac.in",
             "github": "amanverma7",
             "fb": "aman08verma12",
-            "image": amanverma,
+            "image": '',
             "website": "",
             "linkedin": "",
             "twitter": "",
             "position": ""
           },
           {
-            "name": "Aniket Agarwal",
+            "first_name": "Aniket",
+            "last_name": "Agarwal",
             "mail": "aagarwal@ma.iitr.ac.in",
             "github": "aniket-agarwal1999",
             "fb": "aniket.agarwal.9484941",
@@ -177,7 +181,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Ashutosh Chaubey",
+            "first_name": "Ashutosh",
+            "last_name": "Chaubey",
             "mail": "achaubey@cs.iitr.ac.in",
             "github": "ac-alpha",
             "fb": "ashutosh.chaubey.original",
@@ -188,7 +193,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Gaurav Dewat",
+            "first_name": "Gaurav",
+            "last_name": "Dewat",
             "mail": "gdewat@cs.iitr.ac.in",
             "github": "gauravdewat",
             "fb": "dewatgaurav",
@@ -199,7 +205,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Gopi Kishan",
+            "first_name": "Gopi",
+            "last_name": "Kishan",
             "mail": "gkishan@cs.iitr.ac.in",
             "github": "GopiKishan14",
             "fb": "gopi.kishan.17",
@@ -210,7 +217,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Mansi Agarwal",
+            "first_name": "Mansi",
+            "last_name": "Agarwal",
             "mail": "magarwal@cs.iitr.ac.in",
             "github": "Mansi449",
             "fb": "MansiAgarwal449",
@@ -221,7 +229,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Roodram Paneri",
+            "first_name": "Roodram",
+            "last_name": "Paneri",
             "mail": "rpaneri@cs.iitr.ac.in",
             "github": "Roodram",
             "fb": "roodram",
@@ -232,7 +241,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Siddhant Nayak",
+            "first_name": "Siddhant",
+            "last_name": "Nayak",
             "mail": "snayak@cs.iitr.ac.in",
             "github": "toadchavay",
             "fb": "siddhant.nayak.100",
@@ -243,7 +253,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Ghetia Siddharth",
+            "first_name": "Ghetia",
+            "last_name": "Siddharth",
             "mail": "gsiddharth@cs.iitr.ac.in",
             "github": "gsid1",
             "fb": "siddharth.ghetia.5",
@@ -254,7 +265,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Vishal Garg",
+            "first_name": "Vishal",
+            "last_name": "Garg",
             "mail": "vgarg@cs.iitr.ac.in",
             "github": "Vishalgarg425",
             "fb": "",
@@ -265,7 +277,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Anmol Khemuka",
+            "first_name": "Anmol",
+            "last_name": "Khemuka",
             "mail": "akhemuka@cs.iitr.ac.in",
             "github": "anmolkhemuka",
             "fb": "Anmolkhemuka8",
@@ -276,18 +289,20 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Diksha Chaudhary",
+            "first_name": "Diksha",
+            "last_name": "Chaudhary",
             "mail": "diksha@cs.iitr.ac.in",
             "github": "diksha628",
             "fb": "diksha.chaudhary.986227",
-            "image": dikshachaudhary,
+            "image": '',
             "website": "",
             "linkedin": "",
             "twitter": "",
             "position": ""
           },
           {
-            "name": "Karan Singh",
+            "first_name": "Karan",
+            "last_name": "Singh",
             "mail": "ksingh1@cs.iitr.ac.in",
             "github": "KaranKS",
             "fb": "karan976",
@@ -298,7 +313,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Masih Ahmed",
+            "first_name": "Masih",
+            "last_name": "Ahmed",
             "mail": "mahmed@cs.iitr.ac.in",
             "github": "anon766",
             "fb": "masih.ahmed.3",
@@ -309,7 +325,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Priyansh Agarwal",
+            "first_name": "Priyansh",
+            "last_name": "Agarwal",
             "mail": "pagarwal@cs.iitr.ac.in",
             "github": "priyanshagarwal18",
             "fb": "priyansh.agarwal.7",
@@ -320,7 +337,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Priyanshu Garg",
+            "first_name": "Priyanshu",
+            "last_name": "Garg",
             "mail": "pgarg1@cs.iitr.ac.in",
             "github": "priyanshu219",
             "fb": "priyanshugarg",
@@ -331,7 +349,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Rishi Chordia",
+            "first_name": "Rishi",
+            "last_name": "Chordia",
             "mail": "rchordia@cs.iitr.ac.in",
             "github": "rishichordia",
             "fb": "rishi.chordia.5",
@@ -342,7 +361,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Suraaj K S",
+            "first_name": "Suraaj",
+            "last_name": "K S",
             "mail": "skanniwadi@cs.iitr.ac.in",
             "github": "kssuraaj28",
             "fb": "",
@@ -353,7 +373,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Ghanshyam Singh Moyal",
+            "first_name": "Ghanshyam",
+            "last_name": "Singh",
             "mail": "ghanshyam_s@me.iitr.ac",
             "github": "jarvis-001",
             "fb": "ghanshyam singh moyal",
@@ -364,7 +385,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Gyan Vaibhav",
+            "first_name": "Gyan",
+            "last_name": "Vaibhav",
             "mail": "gyan_v@ec.iitr.ac.in",
             "github": "AntiEXE",
             "fb": "gyan.vaibhav",
@@ -375,7 +397,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Pranaw Raj",
+            "first_name": "Pranaw",
+            "last_name": "Raj",
             "mail": "pranaw_r@cs.iitr.ac.in",
             "github": "pranaw154",
             "fb": "pranaw.raj.509",
@@ -386,7 +409,8 @@ export const teamList = {
             "position": ""
           },
           {
-            "name": "Rahul Agrawal",
+            "first_name": "Rahul",
+            "last_name": "Agrawal",
             "mail": "rahul_a@cs.iitr.ac.in",
             "github": "rahulag2411",
             "fb": "rahul.raga.2411",

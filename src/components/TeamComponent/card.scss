@@ -1,49 +1,74 @@
-.card-container{
-    margin: auto;
-    height: 240px;
-    width: 100%;
-    overflow: hidden;
-    &:hover{
-        .card-new.member-card{
-            transform: scale(1.1);
+#team-container{
+    .card-container{
+        margin: auto;
+        // height: 240px;
+        height: 0;
+        padding-bottom: 100%;
+        width: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        &:hover{
+            .card-new.member-card{
+                transform: scale(1.1);
+            }
+            .overlay{
+                opacity: 1;
+            }
+        }
+        .card-new.member-card{      
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 100%;
+            width: 100%;  
+            transition: 0.3s ease;
         }
         .overlay{
-            opacity: 1;
-        }
-    }
-    .card-new.member-card{      
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100%;
-        width: 100%;  
-        transition: 0.3s ease;
-    }
-    .overlay{
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        opacity: 0;
-        width: 100%;
-        transition: 0.3s ease;
-        height: 100%;
-        color: white;
-        .inner{
-            .member-card-name{
-                font-size: 1.2em;
-                font-weight: 700;
-            }
-            .member-card-position{
-                font-size: 0.8em;
-                font-weight: 500;
-            }
-            .member-card-social-icons{
-                font-size: 1.5em;
-                .member-card-social-icon{
-                    border-color: inherit;
-                    border-radius: 50%;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            opacity: 0;
+            width: 100%;
+            transition: 0.3s ease;
+            height: 100%;
+            color: white;
+            .inner{
+                .member-card-name{
+                    font-size: 1.2em;
+                    font-weight: 700;
+                }
+                .member-card-position{
+                    font-size: 0.8em;
+                    font-weight: 500;
+                }
+                .member-card-social-icons{
+                    font-size: 1.5em;
+                    .member-card-social-icon{
+                        border-color: inherit;
+                        border-radius: 50%;
+                    }
                 }
             }
+        }    
+    }
+    
+    .member-card-info{
+        text-align: center;
+        bottom: 0;
+            left:0;
+            right: 0;
+        .member-card-name{
+            line-height: 1.1em;
+            font-size: 1.2em;
+            font-weight: 700;
         }
-    }    
+        .member-card-position{
+            font-size: 0.8em;
+            font-weight: 500;
+        }
+        .member-card-social-icons{
+            
+            font-size: 1em;
+        }
+    }
 }
