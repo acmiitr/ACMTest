@@ -1,3 +1,5 @@
+import sateesh from './../assets/images/team/satish_sir.jpg';
+
 import aarush from './../assets/images/team/aarush.jpeg';
 import dakshit from './../assets/images/team/dakshit.jpeg';
 import patra from './../assets/images/team/patra.jpeg';
@@ -31,6 +33,20 @@ import rahulagarwal from './../assets/images/team/rahulaggarwal.jpg';
 
 
 export const teamList = {
+    advisor: [
+        {
+          "first_name": "P. Sateesh",
+          "last_name": " Kumar",
+          "mail": "drpskfec@iitr.ac.in",
+          "github": "",
+          "position": "",
+          "fb": "",
+          "image": sateesh,
+          "website": "http://www.peddoju.com/",
+          "linkedin": "",
+          "twitter": "",
+        },
+    ],
     bearers: [
         {
             "first_name": "Aniruddha",

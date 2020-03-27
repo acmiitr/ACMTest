@@ -84,6 +84,14 @@ const NewDemoCard = props => {
                                 </Button>
                                 ):(<React.Fragment/>)
                             }
+                            {
+                                props.member.website?(
+                                <Button style={{color: `rgba(${overlay_color}, 0.6)`, backgroundColor: `${alt_color}`}} variant={"light"} className={"member-card-social-icon m-1"} 
+                                href={`${props.member.website}`} target="blank">
+                                <i className="fa fa-globe"></i>
+                                </Button>
+                                ):(<React.Fragment/>)
+                            }
                             
                         </div>
                     </div>
@@ -134,9 +142,21 @@ export const TeamComponent = props => {
                 <div className="text-center family-text position-absolute">THE ACM FAMILY</div>
             </div>
             <Container id="team-container">
-            
+            <h3 className="text-center">Faculty Advisor</h3>
+            <Row className={'justify-content-md-center mb-2'}>
+                {
+                    teamList['advisor'].map((obj, i) => { 
+                        return (
+                            <Col key={i} xs={4} sm={3} lg={2} className="p-2">
+                                {/* <BearerMemberCard member={obj} key={i}/> */}
+                                <NewDemoCard member={obj}/>
+                            </Col>
+                        )
+                    })
+                }
+            </Row>
             <h3 className="text-center">Office Bearers</h3>
-            <Row className={'justify-content-md-center'}>
+            <Row className={'justify-content-md-center mb-2'}>
                 {
                     teamList['bearers'].map((obj, i) => { 
                         return (
@@ -149,7 +169,7 @@ export const TeamComponent = props => {
                 }
             </Row>
             <h3 className="mt-4 text-center">Vertical Heads</h3>
-            <Row className={"justify-content-md-center mb-4"}>
+            <Row className={"justify-content-md-center mb-2"}>
                 {
                     teamList['heads'].map((obj, i) => {
                         return (
@@ -161,8 +181,8 @@ export const TeamComponent = props => {
                     })
                 }
             </Row>
-            {/* <h3 className="mt-4 text-center mb-2">Members</h3> */}
-            <Row className={"justify-content-md-center mb-4"}>
+            <h3 className="mt-4 text-center mb-2">Members</h3>
+            <Row className={"justify-content-md-center mb-2"}>
                 {
                     teamList['members'].map((obj, i) => {
                         return (
