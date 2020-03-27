@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "24aef69b9e33149be22757c52d5c7149",
+    "revision": "0cd267b2212417778f290910f5e9faf1",
     "url": "/ACMTest/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/css/2.48be9feb.chunk.css"
   },
   {
-    "revision": "c02d214f0019ed78d3f7",
-    "url": "/ACMTest/static/css/main.8703d3db.chunk.css"
+    "revision": "041dc788db61a40d89b5",
+    "url": "/ACMTest/static/css/main.9ef78c86.chunk.css"
   },
   {
     "revision": "be56e2e1edd8ecee6391",
@@ -20,28 +20,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/js/2.99584218.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c02d214f0019ed78d3f7",
-    "url": "/ACMTest/static/js/main.16ac0b89.chunk.js"
+    "revision": "041dc788db61a40d89b5",
+    "url": "/ACMTest/static/js/main.4c048aad.chunk.js"
   },
   {
     "revision": "4cc1a5d494756721fd7a",
     "url": "/ACMTest/static/js/runtime-main.b261adc2.js"
   },
   {
-    "revision": "8fb6846701d79aad0d963d1be51d658b",
-    "url": "/ACMTest/static/media/aarush.8fb68467.jpeg"
+    "revision": "1c23697984255234586cef789d90fc0f",
+    "url": "/ACMTest/static/media/aarush.1c236979.jpeg"
   },
   {
-    "revision": "40933590c3fe80971928fe92d46226aa",
-    "url": "/ACMTest/static/media/akshat.40933590.jpeg"
+    "revision": "994b247001aa09bb47a82238d4e9f3a0",
+    "url": "/ACMTest/static/media/akshat.994b2470.jpeg"
   },
   {
-    "revision": "cf38c28bcd1486637081bcbc193ba510",
-    "url": "/ACMTest/static/media/aman-jaiswal.cf38c28b.jpg"
+    "revision": "7bce0d42e7d4c3ecbe946069d30316d7",
+    "url": "/ACMTest/static/media/aman-jaiswal.7bce0d42.jpg"
   },
   {
-    "revision": "a59a7a6497697eb8f37bf42eac3d1a07",
-    "url": "/ACMTest/static/media/aman-verma.a59a7a64.jpeg"
+    "revision": "8eead4b2c447564da4302ee5440ed238",
+    "url": "/ACMTest/static/media/aman-verma.8eead4b2.jpeg"
   },
   {
     "revision": "7016737d4d6e7f21b5c2ad81fd8a8abe",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/anmolkhem.0a27ce53.jpeg"
   },
   {
-    "revision": "50858c153a50312f030826888a205fe9",
-    "url": "/ACMTest/static/media/aryaman.50858c15.jpeg"
+    "revision": "afb50b74c6d0a6bd5447e16580616e36",
+    "url": "/ACMTest/static/media/aryaman.afb50b74.jpeg"
   },
   {
     "revision": "f0f84781bc6635325101727d7ddfe286",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/compe.e446edff.jpg"
   },
   {
-    "revision": "00c62e0ad5da27b056e51a86bf676843",
-    "url": "/ACMTest/static/media/dakshit.00c62e0a.jpeg"
+    "revision": "a850a4113bff2629b584b44c5731c71d",
+    "url": "/ACMTest/static/media/dakshit.a850a411.jpeg"
   },
   {
     "revision": "d5c55e5bed73ad5a8cf8a06b337634f3",
@@ -148,8 +148,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/ghetia.4104d909.jpg"
   },
   {
-    "revision": "d5c2595a894e9090c0dbded6d057dd15",
-    "url": "/ACMTest/static/media/gopi-kishan.d5c2595a.jpeg"
+    "revision": "1e8a44799446e5003f6ebbf7431e11e4",
+    "url": "/ACMTest/static/media/gopi-kishan.1e8a4479.jpeg"
   },
   {
     "revision": "0b95c9cf61df9ce5d1e1b8181368a7fa",
@@ -168,8 +168,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/logo.5f994727.svg"
   },
   {
-    "revision": "dc4edeaec8adce5faf1f4032964bae22",
-    "url": "/ACMTest/static/media/mansi.dc4edeae.jpg"
+    "revision": "98229e90000708f2e9d7c145f8fe373c",
+    "url": "/ACMTest/static/media/mansi.98229e90.jpg"
   },
   {
     "revision": "e8885c93702f37003ca7532e8c124fa8",
@@ -332,8 +332,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ACMTest/static/media/patra.73c8395b.jpeg"
   },
   {
-    "revision": "e773df3dd7129cad7bc77d85384a8597",
-    "url": "/ACMTest/static/media/pranavraj.e773df3d.jpg"
+    "revision": "c60f45925604f5cde8ad2a8310a11fc1",
+    "url": "/ACMTest/static/media/pranavraj.c60f4592.jpg"
   },
   {
     "revision": "d939c93c98feb6d86ab31e7b0cb3d16c",
