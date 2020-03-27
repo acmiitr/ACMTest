@@ -116,7 +116,7 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "OS discussions leader"
+            "position": "OS discussions lead"
           },
           {
             "first_name": "Vipul",
@@ -128,7 +128,7 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": "Networks discussion leader"
+            "position": "Networks discussion lead"
           },
     ],
     members: [
@@ -162,7 +162,7 @@ export const teamList = {
             "mail": "averma@cs.iitr.ac.in",
             "github": "amanverma7",
             "fb": "aman08verma12",
-            "image": amanverma,
+            "image": '',
             "website": "",
             "linkedin": "",
             "twitter": "",
@@ -294,7 +294,7 @@ export const teamList = {
             "mail": "diksha@cs.iitr.ac.in",
             "github": "diksha628",
             "fb": "diksha.chaudhary.986227",
-            "image": dikshachaudhary,
+            "image": '',
             "website": "",
             "linkedin": "",
             "twitter": "",

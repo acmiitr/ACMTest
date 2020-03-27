@@ -89,7 +89,7 @@ const NewDemoCard = props => {
                     </div>
                 </div>
             </div>
-            <div className="member-card-info">
+            <div className="member-card-info pt-1">
                 <div className="member-card-name">{props.member.first_name}</div>
                 <div className="member-card-name">{props.member.last_name}</div>
                 <div className="member-card-position">{props.member.position}</div>
