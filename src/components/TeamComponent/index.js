@@ -49,46 +49,52 @@ const NewDemoCard = props => {
     const overlay_color = getRandomColorString();
     const alt_color = getTextColorString(overlay_color);
     return (
-        <div className="card-container position-relative">
-            <div className="position-absolute card-new member-card" style={{backgroundImage: `linear-gradient(0deg, rgba(${overlay_color}, 0.2), rgba(${overlay_color}, 0.2)), url(${props.member.image})`}}>
-                
-            </div>
-            <div class="position-absolute overlay px-2 d-flex flex-column" style={{backgroundColor: `rgba(${overlay_color}, 0.6)`, color: `${alt_color}`}}>
-                <div class="inner">
-                    <div className="member-card-name">{props.member.name}</div>
-                    <div className="member-card-position">{props.member.position}</div>
-                    <div className="member-card-social-icons">                        
-                        {
-                            props.member.fb?(
-                            <Button style={{color: `rgba(${overlay_color}, 0.6)`, backgroundColor: `${alt_color}`}} variant={"light"} className={"member-card-social-icon m-1"} 
-                            href={`https://facebook.com/${props.member.fb}`} target="blank">
-                            <i className="fa fa-facebook-square"></i>
-                            </Button>
-                            ):(<React.Fragment/>)
-                        }
-                        {
-                            props.member.github?(
-                            <Button style={{color: `rgba(${overlay_color}, 0.6)`, backgroundColor: `${alt_color}`}} variant={"light"} className={"member-card-social-icon m-1"} 
-                            href={`https://github.com/${props.member.github}`} target="blank">
-                            <i className="fa fa-github"></i>
-                            </Button>
-                            ):(<React.Fragment/>)
+        <React.Fragment>
+            <div className="card-container position-relative">
+                <div className="position-absolute card-new member-card" style={{backgroundImage: `linear-gradient(0deg, rgba(${overlay_color}, 0.2), rgba(${overlay_color}, 0.2)), url(${props.member.image})`}}>
+                    
+                </div>
+                <div class="position-absolute overlay px-2 d-flex flex-column" style={{backgroundColor: `rgba(${overlay_color}, 0.6)`, color: `${alt_color}`}}>
+                    <div class="inner">
+                        {/* <div className="member-card-name">{props.member.name}</div>
+                        <div className="member-card-position">{props.member.position}</div> */}
+                        <div className="member-card-social-icons">                        
+                            {
+                                props.member.fb?(
+                                <Button style={{color: `rgba(${overlay_color}, 0.6)`, backgroundColor: `${alt_color}`}} variant={"light"} className={"member-card-social-icon m-1"} 
+                                href={`https://facebook.com/${props.member.fb}`} target="blank">
+                                <i className="fa fa-facebook-square"></i>
+                                </Button>
+                                ):(<React.Fragment/>)
+                            }
+                            {
+                                props.member.github?(
+                                <Button style={{color: `rgba(${overlay_color}, 0.6)`, backgroundColor: `${alt_color}`}} variant={"light"} className={"member-card-social-icon m-1"} 
+                                href={`https://github.com/${props.member.github}`} target="blank">
+                                <i className="fa fa-github"></i>
+                                </Button>
+                                ):(<React.Fragment/>)
+                                
+                            }
+                            {
+                                props.member.mail?(
+                                <Button style={{color: `rgba(${overlay_color}, 0.6)`, backgroundColor: `${alt_color}`}} variant={"light"} className={"member-card-social-icon m-1"} 
+                                href={`mailto:${props.member.mail}`} target="blank">
+                                <i className="fa fa-envelope"></i>
+                                </Button>
+                                ):(<React.Fragment/>)
+                            }
                             
-                        }
-                        {
-                            props.member.mail?(
-                            <Button style={{color: `rgba(${overlay_color}, 0.6)`, backgroundColor: `${alt_color}`}} variant={"light"} className={"member-card-social-icon m-1"} 
-                            href={`mailto:${props.member.mail}`} target="blank">
-                            <i className="fa fa-envelope"></i>
-                            </Button>
-                            ):(<React.Fragment/>)
-                        }
-                        
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
+            <div className="member-card-info">
+                <div className="member-card-name">{props.member.name}</div>
+                <div className="member-card-position">{props.member.position}</div>
+            </div>       
+        </React.Fragment>
+         
     )
 }
 
@@ -105,7 +111,7 @@ export const TeamComponent = props => {
                 {
                     teamList['bearers'].map((obj, i) => { 
                         return (
-                            <Col key={i} xs={4} sm={3} lg={2} style={{padding: 0}} className="py-2">
+                            <Col key={i} xs={4} sm={3} lg={2} className="p-2">
                                 {/* <BearerMemberCard member={obj} key={i}/> */}
                                 <NewDemoCard member={obj}/>
                             </Col>
@@ -118,7 +124,7 @@ export const TeamComponent = props => {
                 {
                     teamList['heads'].map((obj, i) => {
                         return (
-                            <Col key={i} xs={4} sm={3} lg={2} style={{padding: 0}} className="py-2">
+                            <Col key={i} xs={4} sm={3} lg={2} className="p-2">
                                 {/* <BearerMemberCard member={obj} key={i}/> */}
                                 <NewDemoCard member={obj}/>
                             </Col>
@@ -131,7 +137,7 @@ export const TeamComponent = props => {
                 {
                     teamList['members'].map((obj, i) => {
                         return (
-                            <Col key={i} xs={4} sm={3} lg={2} style={{padding: 0}} className="">
+                            <Col key={i} xs={4} sm={3} lg={2} className="p-2">
                                 {/* <BearerMemberCard member={obj} key={i}/> */}
                                 <NewDemoCard member={obj}/>
                             </Col>

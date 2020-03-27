@@ -37,22 +37,22 @@ export const teamList = {
             "mail": "amahapatra@cs.iitr.ac.in",
             "github": "anime26398",
             "fb": "aniruddha.mahapatra",
+            "position": "Chair",
             "image": patra,
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
           },
           {
             "name": "Aarush Gupta",
             "mail": "agupta1@cs.iitr.ac.in",
             "github": "aarushgupta",
+            "position": "Vice Chair",
             "fb": "aarush.363",
             "image": aarush,
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
           },
           {
             "name": "Dakshit Agrawal",
@@ -63,7 +63,7 @@ export const teamList = {
             "website": "https://dakshitagrawal97.github.io/",
             "linkedin": "https://www.linkedin.com/in/dakshit97/",
             "twitter": "@dakshit_97",
-            "position": ""
+            "position": "Treasurer"
           }
     ],
     heads: [
@@ -76,7 +76,7 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "Backend Head"
           },
           {
             "name": "Aryaman Maheshwari",
@@ -87,7 +87,7 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "Events Head"
           },
           {
             "name": "Rahul Singh",
@@ -98,7 +98,7 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "Web Dev Lead"
           },
           {
             "name": "Sachin Jain",
@@ -109,7 +109,7 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "OS discussions leader"
           },
           {
             "name": "Vipul Jain",
@@ -120,7 +120,7 @@ export const teamList = {
             "website": "",
             "linkedin": "",
             "twitter": "",
-            "position": ""
+            "position": "Networks discussion leader"
           },
     ],
     members: [

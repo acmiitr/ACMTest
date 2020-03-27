@@ -1,7 +1,10 @@
 .card-container{
     margin: auto;
-    height: 240px;
+    // height: 240px;
+    height: 0;
+    padding-bottom: 100%;
     width: 100%;
+    border-radius: 50%;
     overflow: hidden;
     &:hover{
         .card-new.member-card{
@@ -46,4 +49,16 @@
             }
         }
     }    
+}
+
+.member-card-info{
+    text-align: center;
+    .member-card-name{
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    .member-card-position{
+        font-size: 0.8em;
+        font-weight: 500;
+    }
 }
