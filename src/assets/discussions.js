@@ -43,6 +43,66 @@ export const discussionList = [
 
                 ]
             },
+            {
+                date: "27/09/2020",
+                topic: "Operating Systems - Introduction",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1J5tUnMOMxruZnak-wyefQiCslkAt98Ytymae8Xhk1pM/edit?usp=sharing",
+                        name: "Slides"
+                    }
+                ]
+            },
+            {
+                date: "4/10/2020",
+                topic: "Operating Systems - Processes",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1q7BI7PGxlQXVUQ-YJ_XaH3ZzU_8PUiXq4imRKFH5utw/edit?usp=sharing",
+                        name: "Slides"
+                    }
+                ]
+            },
+            {
+                date: "11/10/2020",
+                topic: "Inter Process Communication(IPC)",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1fYesR18VlmbRx4o2cVDCqK92LzvhTjtpHy7VMW5mulg/edit?usp=sharing",
+                        name: "Slides"
+                    }
+                ]
+            },
+            {
+                date: "25/10/2020",
+                topic: "Operating Systems - Threads Week 1",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1yW-Z4G7HFimSO491QWIzKMe-gjSjGo7kukKl519pH88/edit?usp=sharing",
+                        name: "Slides"
+                    }
+                ]
+            },
+            {
+                date: "1/11/2020",
+                topic: "Operating Systems - Threads Week 2",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1SOEABr1OEnG0tbaOjDol_RNpIYTYOptxZVslE_qDdzo/edit?usp=sharing",
+                        name: "Slides"
+                    }
+                ]
+            },
+            {
+                date: "22/11/2020",
+                topic: "Developing a basic Linux Shell in C - Week 1",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1-1M2uGZElcUhEvpE7HCdSIoxvbO9JkCHrkq9yyb8liU/edit#slide=id.ga2f85ad52b_0_286",
+                        name: "Slides"
+                    }
+                ]
+            },
         ]
     },
     {
@@ -111,7 +171,123 @@ export const discussionList = [
                 resources: [
                     
                 ]
-            }
+            },
+            {
+                date: "2/10/2020",
+                topic: "Bandit: Levels 1-7",
+                resources: [
+                    {
+                        link: "https://overthewire.org/wargames/bandit/",
+                        name: "Bandit Wargame"
+                    }, 
+                    {
+                        link: "https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners",
+                        name: "Blog"
+                    }
+                ]
+            },
+            {
+                date: "9/10/2020",
+                topic: "Bandit: Levels 8-14",
+                resources: [
+                    {
+                        link: "https://overthewire.org/wargames/bandit/",
+                        name: "Bandit Wargame"
+                    }, 
+                    {
+                        link: "https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners",
+                        name: "Blog"
+                    }
+                ]
+            },
+            {
+                date: "16/10/2020",
+                topic: "Bandit: Levels 15-18",
+                resources: [
+                    {
+                        link: "https://overthewire.org/wargames/bandit/",
+                        name: "Bandit Wargame"
+                    }, 
+                    {
+                        link: "https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners",
+                        name: "Blog"
+                    }
+                ]
+            },
+            {
+                date: "23/10/2020",
+                topic: "Bandit: Levels 19-22",
+                resources: [
+                    {
+                        link: "https://overthewire.org/wargames/bandit/",
+                        name: "Bandit Wargame"
+                    }, 
+                    {
+                        link: "https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners",
+                        name: "Blog"
+                    }
+                ]
+            },
+            {
+                date: "30/10/2020",
+                topic: "Bandit: Levels 23-27",
+                resources: [
+                    {
+                        link: "https://overthewire.org/wargames/bandit/",
+                        name: "Bandit Wargame"
+                    }, 
+                    {
+                        link: "https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners",
+                        name: "Blog"
+                    }
+                ]
+            },
+            {
+                date: "6/11/2020",
+                topic: "Bandit: Levels 28-32",
+                resources: [
+                    {
+                        link: "https://overthewire.org/wargames/bandit/",
+                        name: "Bandit Wargame"
+                    }, 
+                    {
+                        link: "https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners",
+                        name: "Blog"
+                    }
+                ]
+            },
+            {
+                date: "20/11/2020",
+                topic: "Client Server Communication Project - Week 1",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1_cj2frBL4wUzidmFiFcILpBQ9pF3v3HC1WEqIr13AJg/edit?usp=sharing",
+                        name: "Slides"
+                    }, 
+                    {
+                        link: "https://www.geeksforgeeks.org/layers-of-osi-model/",
+                        name: "Blog"
+                    }
+                ]
+            },
+            {
+                date: "27/11/2020",
+                topic: "Client Server Communication Project - Week 2",
+                resources: [
+                    {
+                        link: "https://docs.google.com/presentation/d/1NrnjSIk8PTWj3Cl6Q_WWO-sB8AoYX1VOFsxfKzJMNXM/edit?usp=sharing",
+                        name: "Slides"
+                    }, 
+                    {
+                        link: "https://www.geeksforgeeks.org/tcp-and-udp-in-transport-layer/",
+                        name: "Blog - TCP and UDP"
+                    }, 
+                    {
+                        link: "https://www.geeksforgeeks.org/socket-in-computer-network/",
+                        name: "Blog - Socket in computer networks"
+                    }
+                ]
+            },
         ]
     },
     {
