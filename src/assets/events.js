@@ -60,6 +60,17 @@ export const eventList = [
         year: 2020,
         events: [
             {
+                //img: Event11,
+                heading: 'Workshop - File Systems (FAT12)',
+                subtitle: <React.Fragment>
+                    <p>
+                        Presented the basic idea of the jargon associated with the field of Computer Science
+                    </p>
+                </React.Fragment>,
+                date: '25',
+                month: 'SEP'
+            },
+            {
                 img: Event11,
                 heading: 'Workshop - File Systems (FAT12)',
                 subtitle: <React.Fragment>
